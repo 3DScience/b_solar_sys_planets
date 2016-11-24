@@ -14,6 +14,44 @@
 			],
 			"interactives": [
 				{
+                    "eventName": "ONLOAD",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                },
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "earth 1",
+			"texts":[
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Solar System",
+					"textFile":"Scene2_text2"
+				}
+			],
+			"interactives": [
+				{
 					"eventName": "EXPLORER_BUTTON_CLICK",
 					 "actions":[
 						{
