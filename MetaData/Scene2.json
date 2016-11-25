@@ -4,14 +4,12 @@
     "info": " this scence is for testing!",
     "mainObjects": [
 		{
-			"ObjectName": "sun 1",
-			"texts":[
-				{
+			"ObjectName": "solar_system",
+			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
 					"header":"Solar System",
 					"textFile":"Scene2_text1"
-				}
-			],
+				} ],
 			"interactives": [
 				{
                     "eventName": "ONLOAD",
@@ -19,9 +17,18 @@
 						{
 							"actionName":"SHOW_TEXT",
 							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                },
+						} ]
+                }]
+		},
+		{
+			"ObjectName": "sun 1",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Sun info",
+					"textFile":"Scene2_Sun"
+				}
+			],
+			"interactives": [
 				{
 					"eventName": "EXPLORER_BUTTON_CLICK",
 					 "actions":[
@@ -43,11 +50,10 @@
 		},
 		{
 			"ObjectName": "earth 1",
-			"texts":[
-				{
+			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Solar System",
-					"textFile":"Scene2_text2"
+					"header":"earth info",
+					"textFile":"Scene2_Earth"
 				}
 			],
 			"interactives": [
@@ -56,18 +62,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [
-								{"paramName":"scence_idext", "paramValue":"3" }
-							]
-						}
-					]
-				},
-				{
-					"eventName": "TOUCH_ON_NOTHING",
-					 "actions":[
-						{
-							"actionName":"HIDE_DISPLAY_TEXT_UI",
-							"actionParams": []
+							"actionParams": [{"paramName":"scence_index", "paramValue":"4" }]
 						}
 					]
 				},
@@ -76,12 +71,208 @@
                     "actions":[
 						{
 							"actionName":"SHOW_TEXT",
-							"actionParams": [
-								{"paramName":"param1", "paramValue":"param1 value" }
-							]
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "jupiter",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Jupiter info",
+					"textFile":"Scene2_Jupiter"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "mars",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Mars info",
+					"textFile":"Scene2_Mars"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "mercury",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Mercury info",
+					"textFile":"Scene2_Mercury"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "neptune",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Neptune info",
+					"textFile":"Scene2_Neptune"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "saturn 1",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Saturn info",
+					"textFile":"Scene2_Saturn"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "uranus",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Uranus info",
+					"textFile":"Scene2_Uranus"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "venus",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Venus info",
+					"textFile":"Scene2_Venus"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
 						}
 					]
                 }]
 		}
+
+
     ]
 }

@@ -3,6 +3,35 @@
 	"title": "this is our sun",
     "info": " this scence is for testing!",
     "mainObjects": [
-   
+	  {
+			"ObjectName": "sun 1",
+			"texts":[
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Sun info",
+					"textFile":"Scene2_Sun"
+				}
+			],
+			"interactives": [
+				{
+                    "eventName": "ONLOAD",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
+						}
+					]
+                },
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }
+			]
+		}
     ]
 }
