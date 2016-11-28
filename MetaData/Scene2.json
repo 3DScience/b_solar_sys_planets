@@ -18,7 +18,16 @@
 							"actionName":"SHOW_TEXT",
 							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
 						} ]
-                }]
+                },
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				}]
 		},
 		{
 			"ObjectName": "sun 1",
