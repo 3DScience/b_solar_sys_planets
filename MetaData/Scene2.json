@@ -8,7 +8,7 @@
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
 					"header":"Solar System",
-					"textFile":"Scene2_text1"
+					"textFile":"Scene2_Intro"
 				} ],
 			"interactives": [
 				{
@@ -33,92 +33,8 @@
 			"ObjectName": "sun 1",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Sun info",
+					"header":"Mặt trời (Sun)",
 					"textFile":"Scene2_Sun"
-				}
-			],
-			"interactives": [
-				{
-					"eventName": "EXPLORER_BUTTON_CLICK",
-					 "actions":[
-						{
-							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
-						}
-					]
-				},
-                {
-                    "eventName": "TOUCH",
-                    "actions":[
-						{
-							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                }]
-		},
-		{
-			"ObjectName": "earth 1",
-			"texts":[{
-					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"earth info",
-					"textFile":"Scene2_Earth"
-				}
-			],
-			"interactives": [
-				{
-					"eventName": "EXPLORER_BUTTON_CLICK",
-					 "actions":[
-						{
-							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"4" }]
-						}
-					]
-				},
-                {
-                    "eventName": "TOUCH",
-                    "actions":[
-						{
-							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                }]
-		},
-		{
-			"ObjectName": "jupiter",
-			"texts":[{
-					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Jupiter info",
-					"textFile":"Scene2_Jupiter"
-				}
-			],
-			"interactives": [
-				{
-					"eventName": "EXPLORER_BUTTON_CLICK",
-					 "actions":[
-						{
-							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
-						}
-					]
-				},
-                {
-                    "eventName": "TOUCH",
-                    "actions":[
-						{
-							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                }]
-		},
-		{
-			"ObjectName": "mars",
-			"texts":[{
-					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Mars info",
-					"textFile":"Scene2_Mars"
 				}
 			],
 			"interactives": [
@@ -145,7 +61,7 @@
 			"ObjectName": "mercury",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Mercury info",
+					"header":"1.Sao Thủy (Mercury)",
 					"textFile":"Scene2_Mercury"
 				}
 			],
@@ -169,12 +85,96 @@
 					]
                 }]
 		},
-		{
-			"ObjectName": "neptune",
+				{
+			"ObjectName": "venus",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Neptune info",
-					"textFile":"Scene2_Neptune"
+					"header":"2.Sao Kim (Venus)",
+					"textFile":"Scene2_Venus"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "earth 1",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"3.Trái Đất (Earth)",
+					"textFile":"Scene2_Earth"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"4" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "mars",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"4.Sao Hỏa (Mars)",
+					"textFile":"Scene2_Mars"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "jupiter",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"5.Sao Mộc (Jupiter)",
+					"textFile":"Scene2_Jupiter"
 				}
 			],
 			"interactives": [
@@ -201,7 +201,7 @@
 			"ObjectName": "saturn 1",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Saturn info",
+					"header":"6.Sao Thổ (Saturn)",
 					"textFile":"Scene2_Saturn"
 				}
 			],
@@ -229,7 +229,7 @@
 			"ObjectName": "uranus",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Uranus info",
+					"header":"7.Sao Thiên Vương (Uranus)",
 					"textFile":"Scene2_Uranus"
 				}
 			],
@@ -254,11 +254,11 @@
                 }]
 		},
 		{
-			"ObjectName": "venus",
+			"ObjectName": "neptune",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Venus info",
-					"textFile":"Scene2_Venus"
+					"header":"8.Sao Hải Vương (Neptune)",
+					"textFile":"Scene2_Neptune"
 				}
 			],
 			"interactives": [
@@ -281,7 +281,34 @@
 					]
                 }]
 		}
-
-
+		,
+		{
+			"ObjectName": "pluto",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"8.Sao Diêm Vương (Pluto)",
+					"textFile":"Scene2_Pluto"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		}
     ]
 }
