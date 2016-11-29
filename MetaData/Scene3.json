@@ -4,12 +4,23 @@
     "info": " this scence is for testing!",
     "mainObjects": [
 	  {
-			"ObjectName": "sun 1",
+			"ObjectName": "sun 1", "Title": "Mặt trời",
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",
-					"header":"Sun info",
-					"textFile":"Scene2_Sun"
+					"header":"Giới thiệu",
+					"textFile":"Scene3_Sun_1"
+				},
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Sự hình thành",
+					"textFile":"Scene3_Sun_2"
+				}
+				,
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Kết thúc",
+					"textFile":"Scene3_Sun_3"
 				}
 			],
 			"interactives": [
