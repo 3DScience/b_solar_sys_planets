@@ -4,7 +4,9 @@
     "info": " this scence is for testing!",
     "mainObjects": [
 	  {
-			"ObjectName": "sun 1", "Title": "Mặt trời",
+
+			"ObjectName": "sun_plane", "Title": "MẶT TRỜI",
+
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",

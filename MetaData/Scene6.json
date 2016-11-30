@@ -1,25 +1,15 @@
 ﻿{
-    "name": "venus",
-	"title": "this is our venus",
-    "info": " this scence is for testing!",
+    "name": "earth",
+	"title": "Earth pages",
+    "info": "All about Earth",
     "mainObjects": [
 	  {
-			"ObjectName": "venus", "Title": "2.Sao Kim (Venus)",
+			"ObjectName": "earth 1", "Title": "3.TRÁI ĐẤT",
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",
 					"header":"Giới thiệu",
-					"textFile":"Scene5_Venus_1"
-				},
-				{
-					"displayUI":"common_asset_bundle/RichTextUi_2",
-					"header":"Quan sát",
-					"textFile":"Scene5_Venus_2"
-				},
-				{
-					"displayUI":"common_asset_bundle/RichTextUi_2",
-					"header":"Thông tin khác",
-					"textFile":"Scene5_Venus_3"
+					"textFile":"Scene6_Earth_1"
 				}
 			],
 			"interactives": [

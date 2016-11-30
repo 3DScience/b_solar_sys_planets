@@ -1,10 +1,10 @@
 ﻿{
     "name": "page2",
-	"title": "demo page 02",
-    "info": " this scence is for testing!",
+	"title": "Solar System",
+    "info": "Overview of Solarsystem",
     "mainObjects": [
 		{
-			"ObjectName": "solar_system",
+			"ObjectName": "solar_system", "Title": "HỆ MẶT TRỜI",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
 					"header":"Solar System",
@@ -36,10 +36,10 @@
 				}]
 		},
 		{
-			"ObjectName": "sun_plane",
+			"ObjectName": "sun_plane", "Title": "MẶT TRỜI (Sun)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"Mặt trời (Sun)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Sun"
 				}
 			],
@@ -64,67 +64,11 @@
                 }]
 		},
 		{
-			"ObjectName": "mercury",
+			"ObjectName": "mercury", "Title": "1.SAO THỦY (Mercury)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"1.Sao Thủy (Mercury)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Mercury"
-				}
-			],
-			"interactives": [
-				{
-					"eventName": "EXPLORER_BUTTON_CLICK",
-					 "actions":[
-						{
-							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
-						}
-					]
-				},
-                {
-                    "eventName": "TOUCH",
-                    "actions":[
-						{
-							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                }]
-		},
-				{
-			"ObjectName": "venus",
-			"texts":[{
-					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"2.Sao Kim (Venus)",
-					"textFile":"Scene2_Venus"
-				}
-			],
-			"interactives": [
-				{
-					"eventName": "EXPLORER_BUTTON_CLICK",
-					 "actions":[
-						{
-							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
-						}
-					]
-				},
-                {
-                    "eventName": "TOUCH",
-                    "actions":[
-						{
-							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
-						}
-					]
-                }]
-		},
-		{
-			"ObjectName": "earth 1",
-			"texts":[{
-					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"3.Trái Đất (Earth)",
-					"textFile":"Scene2_Earth"
 				}
 			],
 			"interactives": [
@@ -147,11 +91,67 @@
 					]
                 }]
 		},
-		{
-			"ObjectName": "mars",
+				{
+			"ObjectName": "venus", "Title": "2.SAO KIM (Venus)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"4.Sao Hỏa (Mars)",
+					"header":"Tóm tắt",
+					"textFile":"Scene2_Venus"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"5" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "earth 1", "Title" : "3.TRÁI ĐẤT (Earth)",
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Tóm tắt",
+					"textFile":"Scene2_Earth"
+				}
+			],
+			"interactives": [
+				{
+					"eventName": "EXPLORER_BUTTON_CLICK",
+					 "actions":[
+						{
+							"actionName":"CHANGE_SCENE",
+							"actionParams": [{"paramName":"scence_index", "paramValue":"6" }]
+						}
+					]
+				},
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }]
+		},
+		{
+			"ObjectName": "mars", "Title" : "4.SAO HỎA (Mars)", 
+			"texts":[{
+					"displayUI":"common_asset_bundle/RichTextUi_1",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Mars"
 				}
 			],
@@ -176,10 +176,10 @@
                 }]
 		},
 		{
-			"ObjectName": "jupiter",
+			"ObjectName": "jupiter", "Title": "5.SAO MỘC (Jupiter)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"5.Sao Mộc (Jupiter)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Jupiter"
 				}
 			],
@@ -204,10 +204,10 @@
                 }]
 		},
 		{
-			"ObjectName": "saturn 1",
+			"ObjectName": "saturn 1", "Title" : "6.SAO THỔ (Saturn)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"6.Sao Thổ (Saturn)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Saturn"
 				}
 			],
@@ -232,10 +232,10 @@
                 }]
 		},
 		{
-			"ObjectName": "uranus",
+			"ObjectName": "uranus", "Title" : "7.SAO THIÊN VƯƠNG (Uranus)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"7.Sao Thiên Vương (Uranus)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Uranus"
 				}
 			],
@@ -260,10 +260,10 @@
                 }]
 		},
 		{
-			"ObjectName": "neptune",
+			"ObjectName": "neptune", "Title": "8.SAO HẢI VƯƠNG (Neptune)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"8.Sao Hải Vương (Neptune)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Neptune"
 				}
 			],
@@ -289,10 +289,10 @@
 		}
 		,
 		{
-			"ObjectName": "pluto",
+			"ObjectName": "pluto", "Title": "8.SAO DIÊM VƯƠNG (Pluto)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
-					"header":"8.Sao Diêm Vương (Pluto)",
+					"header":"Tóm tắt",
 					"textFile":"Scene2_Pluto"
 				}
 			],
