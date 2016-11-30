@@ -1,8 +1,47 @@
 ﻿{
-    "name": "page5",
-	"title": "demo page 05",
+    "name": "earth",
+	"title": "this is our earth",
     "info": " this scence is for testing!",
     "mainObjects": [
-   
+	  {
+			"ObjectName": "earth 1", "Title": "2.Sao Kim (Venus)",
+			"texts":[
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Giới thiệu",
+					"textFile":"Scene5_Venus_1"
+				},
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Quan sát",
+					"textFile":"Scene5_Venus_2"
+				},
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Thông tin khác",
+					"textFile":"Scene5_Venus_3"
+				}
+			],
+			"interactives": [
+				{
+                    "eventName": "ONLOAD",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
+						}
+					]
+                },
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }
+			]
+		}
     ]
 }

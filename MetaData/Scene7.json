@@ -1,20 +1,15 @@
 ﻿{
-    "name": "earth",
-	"title": "this is our earth",
-    "info": " this scence is for testing!",
+    "name": "Mars",
+	"title": "Mars pages",
+    "info": "Brief of Mars",
     "mainObjects": [
 	  {
-			"ObjectName": "earth 1", "Title": "1.Sao Thủy (Mercury)",
+			"ObjectName": "mars", "Title": "4.SAO HỎA",
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",
 					"header":"Giới thiệu",
-					"textFile":"Scene4_Mecury_1"
-				},
-				{
-					"displayUI":"common_asset_bundle/RichTextUi_2",
-					"header":"Quan sát",
-					"textFile":"Scene4_Mecury_2"
+					"textFile":"Scene7_Mars_1"
 				}
 			],
 			"interactives": [
