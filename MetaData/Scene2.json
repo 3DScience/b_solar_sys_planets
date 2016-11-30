@@ -30,7 +30,7 @@
 				}]
 		},
 		{
-			"ObjectName": "sun 1",
+			"ObjectName": "sun_plane",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
 					"header":"Mặt trời (Sun)",

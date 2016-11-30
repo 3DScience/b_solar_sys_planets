@@ -1,174 +1,376 @@
 fileFormatVersion: 2
-guid: 90d7515d96fcd264cb2995e3dcc3e1fe
-timeCreated: 1479182447
+guid: 2a5cdb204b51bad4ea4a1696cb9034d0
+timeCreated: 1479975670
 licenseType: Free
 ModelImporter:
   serializedVersion: 19
   fileIDToRecycleName:
-    100000: Earth
+    100000: asteroid_belt
     100002: earth
-    100004: earth_orbit
-    100006: earth_orbit_color
-    100008: jupiter
-    100010: jupiter_orbit
-    100012: jupiter_orbit_color
-    100014: mars
-    100016: mars_orbit
-    100018: mars_orbit_color
-    100020: mercury
-    100022: mercury_orbit
-    100024: mercury_orbit_color
-    100026: moon
-    100028: neptune
-    100030: neptune_orbit
-    100032: neptune_orbit_color
-    100034: pluto
-    100036: pluto_orbit
-    100038: Saturn
-    100040: saturn
-    100042: saturn_orbit
-    100044: saturn_orbit_color
-    100046: saturn_ring
-    100048: //RootNode
-    100050: Sun
-    100052: sun
-    100054: sun_atmosphere
-    100056: uranus
-    100058: uranus_orbit
-    100060: uranus_orbit_color
-    100062: venus
-    100064: venus_orbit
-    100066: venus_orbit_color
-    100068: orbit1
-    100070: orbit2
-    100072: orbit3
-    100074: orbit4
-    100076: orbit5
-    100078: orbit6
-    100080: orbit7
-    100082: orbit8
-    100084: orbit9
-    100086: earth 1
-    100088: moon_orbit
-    100090: saturn 1
-    100092: sun 1
-    400000: Earth
+    100004: earth 1
+    100006: earth_orbit
+    100008: instancer1_Asteroid_A_id_0
+    100010: instancer1_Asteroid_A_id_0_grp
+    100012: instancer1_Asteroid_A_id_1
+    100014: instancer1_Asteroid_A_id_10
+    100016: instancer1_Asteroid_A_id_10_grp
+    100018: instancer1_Asteroid_A_id_11
+    100020: instancer1_Asteroid_A_id_11_grp
+    100022: instancer1_Asteroid_A_id_12
+    100024: instancer1_Asteroid_A_id_12_grp
+    100026: instancer1_Asteroid_A_id_14
+    100028: instancer1_Asteroid_A_id_14_grp
+    100030: instancer1_Asteroid_A_id_17
+    100032: instancer1_Asteroid_A_id_17_grp
+    100034: instancer1_Asteroid_A_id_18
+    100036: instancer1_Asteroid_A_id_18_grp
+    100038: instancer1_Asteroid_A_id_1_grp
+    100040: instancer1_Asteroid_A_id_2
+    100042: instancer1_Asteroid_A_id_24
+    100044: instancer1_Asteroid_A_id_24_grp
+    100046: instancer1_Asteroid_A_id_25
+    100048: instancer1_Asteroid_A_id_25_grp
+    100050: instancer1_Asteroid_A_id_27
+    100052: instancer1_Asteroid_A_id_27_grp
+    100054: instancer1_Asteroid_A_id_28
+    100056: instancer1_Asteroid_A_id_28_grp
+    100058: instancer1_Asteroid_A_id_29
+    100060: instancer1_Asteroid_A_id_29_grp
+    100062: instancer1_Asteroid_A_id_2_grp
+    100064: instancer1_Asteroid_A_id_3
+    100066: instancer1_Asteroid_A_id_31
+    100068: instancer1_Asteroid_A_id_31_grp
+    100070: instancer1_Asteroid_A_id_32
+    100072: instancer1_Asteroid_A_id_32_grp
+    100074: instancer1_Asteroid_A_id_33
+    100076: instancer1_Asteroid_A_id_33_grp
+    100078: instancer1_Asteroid_A_id_34
+    100080: instancer1_Asteroid_A_id_34_grp
+    100082: instancer1_Asteroid_A_id_35
+    100084: instancer1_Asteroid_A_id_35_grp
+    100086: instancer1_Asteroid_A_id_37
+    100088: instancer1_Asteroid_A_id_37_grp
+    100090: instancer1_Asteroid_A_id_38
+    100092: instancer1_Asteroid_A_id_38_grp
+    100094: instancer1_Asteroid_A_id_3_grp
+    100096: instancer1_Asteroid_A_id_7
+    100098: instancer1_Asteroid_A_id_7_grp
+    100100: instancer1_Asteroid_A_id_9
+    100102: instancer1_Asteroid_A_id_9_grp
+    100104: instancer1_Asteroid_B_id_13
+    100106: instancer1_Asteroid_B_id_13_grp
+    100108: instancer1_Asteroid_B_id_15
+    100110: instancer1_Asteroid_B_id_15_grp
+    100112: instancer1_Asteroid_B_id_16
+    100114: instancer1_Asteroid_B_id_16_grp
+    100116: instancer1_Asteroid_B_id_19
+    100118: instancer1_Asteroid_B_id_19_grp
+    100120: instancer1_Asteroid_B_id_20
+    100122: instancer1_Asteroid_B_id_20_grp
+    100124: instancer1_Asteroid_B_id_21
+    100126: instancer1_Asteroid_B_id_21_grp
+    100128: instancer1_Asteroid_B_id_22
+    100130: instancer1_Asteroid_B_id_22_grp
+    100132: instancer1_Asteroid_B_id_23
+    100134: instancer1_Asteroid_B_id_23_grp
+    100136: instancer1_Asteroid_B_id_26
+    100138: instancer1_Asteroid_B_id_26_grp
+    100140: instancer1_Asteroid_B_id_30
+    100142: instancer1_Asteroid_B_id_30_grp
+    100144: instancer1_Asteroid_B_id_36
+    100146: instancer1_Asteroid_B_id_36_grp
+    100148: instancer1_Asteroid_B_id_39
+    100150: instancer1_Asteroid_B_id_39_grp
+    100152: instancer1_Asteroid_B_id_4
+    100154: instancer1_Asteroid_B_id_40
+    100156: instancer1_Asteroid_B_id_40_grp
+    100158: instancer1_Asteroid_B_id_4_grp
+    100160: instancer1_Asteroid_B_id_5
+    100162: instancer1_Asteroid_B_id_5_grp
+    100164: instancer1_Asteroid_B_id_6
+    100166: instancer1_Asteroid_B_id_6_grp
+    100168: instancer1_Asteroid_B_id_8
+    100170: instancer1_Asteroid_B_id_8_grp
+    100172: jupiter
+    100174: jupiter_orbit
+    100176: mars
+    100178: mars_orbit
+    100180: mercury
+    100182: mercury_orbit
+    100184: moon
+    100186: moon_orbit
+    100188: neptune
+    100190: neptune_orbit
+    100192: orbit1
+    100194: orbit2
+    100196: orbit3
+    100198: orbit4
+    100200: orbit5
+    100202: orbit6
+    100204: orbit7
+    100206: orbit8
+    100208: orbit9
+    100210: pluto
+    100212: saturn
+    100214: saturn 1
+    100216: saturn_orbit
+    100218: saturn_ring
+    100220: //RootNode
+    100222: sun
+    100224: sun 1
+    100226: sun_atmosphere
+    100228: uranus
+    100230: uranus_orbit
+    100232: venus
+    100234: venus_orbit
+    400000: asteroid_belt
     400002: earth
-    400004: earth_orbit
-    400006: earth_orbit_color
-    400008: jupiter
-    400010: jupiter_orbit
-    400012: jupiter_orbit_color
-    400014: mars
-    400016: mars_orbit
-    400018: mars_orbit_color
-    400020: mercury
-    400022: mercury_orbit
-    400024: mercury_orbit_color
-    400026: moon
-    400028: neptune
-    400030: neptune_orbit
-    400032: neptune_orbit_color
-    400034: pluto
-    400036: pluto_orbit
-    400038: Saturn
-    400040: saturn
-    400042: saturn_orbit
-    400044: saturn_orbit_color
-    400046: saturn_ring
-    400048: //RootNode
-    400050: Sun
-    400052: sun
-    400054: sun_atmosphere
-    400056: uranus
-    400058: uranus_orbit
-    400060: uranus_orbit_color
-    400062: venus
-    400064: venus_orbit
-    400066: venus_orbit_color
-    400068: orbit1
-    400070: orbit2
-    400072: orbit3
-    400074: orbit4
-    400076: orbit5
-    400078: orbit6
-    400080: orbit7
-    400082: orbit8
-    400084: orbit9
-    400086: earth 1
-    400088: moon_orbit
-    400090: saturn 1
-    400092: sun 1
-    2300000: earth
-    2300002: earth_orbit_color
-    2300004: jupiter
-    2300006: jupiter_orbit_color
-    2300008: mars
-    2300010: mars_orbit_color
-    2300012: mercury
-    2300014: mercury_orbit_color
-    2300016: moon
-    2300018: neptune
-    2300020: neptune_orbit_color
-    2300022: pluto
-    2300024: saturn
-    2300026: saturn_orbit_color
-    2300028: saturn_ring
-    2300030: sun
-    2300032: sun_atmosphere
-    2300034: uranus
-    2300036: uranus_orbit_color
-    2300038: venus
-    2300040: venus_orbit_color
-    2300042: earth_orbit
-    2300044: jupiter_orbit
-    2300046: mars_orbit
-    2300048: mercury_orbit
-    2300050: neptune_orbit
-    2300052: saturn_orbit
-    2300054: uranus_orbit
-    2300056: venus_orbit
-    2300058: earth 1
-    2300060: saturn 1
-    2300062: sun 1
-    3300000: earth
-    3300002: earth_orbit_color
-    3300004: jupiter
-    3300006: jupiter_orbit_color
-    3300008: mars
-    3300010: mars_orbit_color
-    3300012: mercury
-    3300014: mercury_orbit_color
-    3300016: moon
-    3300018: neptune
-    3300020: neptune_orbit_color
-    3300022: pluto
-    3300024: saturn
-    3300026: saturn_orbit_color
-    3300028: saturn_ring
-    3300030: sun
-    3300032: sun_atmosphere
-    3300034: uranus
-    3300036: uranus_orbit_color
-    3300038: venus
-    3300040: venus_orbit_color
-    3300042: earth_orbit
-    3300044: jupiter_orbit
-    3300046: mars_orbit
-    3300048: mercury_orbit
-    3300050: neptune_orbit
-    3300052: saturn_orbit
-    3300054: uranus_orbit
-    3300056: venus_orbit
-    3300058: earth 1
-    3300060: saturn 1
-    3300062: sun 1
+    400004: earth 1
+    400006: earth_orbit
+    400008: instancer1_Asteroid_A_id_0
+    400010: instancer1_Asteroid_A_id_0_grp
+    400012: instancer1_Asteroid_A_id_1
+    400014: instancer1_Asteroid_A_id_10
+    400016: instancer1_Asteroid_A_id_10_grp
+    400018: instancer1_Asteroid_A_id_11
+    400020: instancer1_Asteroid_A_id_11_grp
+    400022: instancer1_Asteroid_A_id_12
+    400024: instancer1_Asteroid_A_id_12_grp
+    400026: instancer1_Asteroid_A_id_14
+    400028: instancer1_Asteroid_A_id_14_grp
+    400030: instancer1_Asteroid_A_id_17
+    400032: instancer1_Asteroid_A_id_17_grp
+    400034: instancer1_Asteroid_A_id_18
+    400036: instancer1_Asteroid_A_id_18_grp
+    400038: instancer1_Asteroid_A_id_1_grp
+    400040: instancer1_Asteroid_A_id_2
+    400042: instancer1_Asteroid_A_id_24
+    400044: instancer1_Asteroid_A_id_24_grp
+    400046: instancer1_Asteroid_A_id_25
+    400048: instancer1_Asteroid_A_id_25_grp
+    400050: instancer1_Asteroid_A_id_27
+    400052: instancer1_Asteroid_A_id_27_grp
+    400054: instancer1_Asteroid_A_id_28
+    400056: instancer1_Asteroid_A_id_28_grp
+    400058: instancer1_Asteroid_A_id_29
+    400060: instancer1_Asteroid_A_id_29_grp
+    400062: instancer1_Asteroid_A_id_2_grp
+    400064: instancer1_Asteroid_A_id_3
+    400066: instancer1_Asteroid_A_id_31
+    400068: instancer1_Asteroid_A_id_31_grp
+    400070: instancer1_Asteroid_A_id_32
+    400072: instancer1_Asteroid_A_id_32_grp
+    400074: instancer1_Asteroid_A_id_33
+    400076: instancer1_Asteroid_A_id_33_grp
+    400078: instancer1_Asteroid_A_id_34
+    400080: instancer1_Asteroid_A_id_34_grp
+    400082: instancer1_Asteroid_A_id_35
+    400084: instancer1_Asteroid_A_id_35_grp
+    400086: instancer1_Asteroid_A_id_37
+    400088: instancer1_Asteroid_A_id_37_grp
+    400090: instancer1_Asteroid_A_id_38
+    400092: instancer1_Asteroid_A_id_38_grp
+    400094: instancer1_Asteroid_A_id_3_grp
+    400096: instancer1_Asteroid_A_id_7
+    400098: instancer1_Asteroid_A_id_7_grp
+    400100: instancer1_Asteroid_A_id_9
+    400102: instancer1_Asteroid_A_id_9_grp
+    400104: instancer1_Asteroid_B_id_13
+    400106: instancer1_Asteroid_B_id_13_grp
+    400108: instancer1_Asteroid_B_id_15
+    400110: instancer1_Asteroid_B_id_15_grp
+    400112: instancer1_Asteroid_B_id_16
+    400114: instancer1_Asteroid_B_id_16_grp
+    400116: instancer1_Asteroid_B_id_19
+    400118: instancer1_Asteroid_B_id_19_grp
+    400120: instancer1_Asteroid_B_id_20
+    400122: instancer1_Asteroid_B_id_20_grp
+    400124: instancer1_Asteroid_B_id_21
+    400126: instancer1_Asteroid_B_id_21_grp
+    400128: instancer1_Asteroid_B_id_22
+    400130: instancer1_Asteroid_B_id_22_grp
+    400132: instancer1_Asteroid_B_id_23
+    400134: instancer1_Asteroid_B_id_23_grp
+    400136: instancer1_Asteroid_B_id_26
+    400138: instancer1_Asteroid_B_id_26_grp
+    400140: instancer1_Asteroid_B_id_30
+    400142: instancer1_Asteroid_B_id_30_grp
+    400144: instancer1_Asteroid_B_id_36
+    400146: instancer1_Asteroid_B_id_36_grp
+    400148: instancer1_Asteroid_B_id_39
+    400150: instancer1_Asteroid_B_id_39_grp
+    400152: instancer1_Asteroid_B_id_4
+    400154: instancer1_Asteroid_B_id_40
+    400156: instancer1_Asteroid_B_id_40_grp
+    400158: instancer1_Asteroid_B_id_4_grp
+    400160: instancer1_Asteroid_B_id_5
+    400162: instancer1_Asteroid_B_id_5_grp
+    400164: instancer1_Asteroid_B_id_6
+    400166: instancer1_Asteroid_B_id_6_grp
+    400168: instancer1_Asteroid_B_id_8
+    400170: instancer1_Asteroid_B_id_8_grp
+    400172: jupiter
+    400174: jupiter_orbit
+    400176: mars
+    400178: mars_orbit
+    400180: mercury
+    400182: mercury_orbit
+    400184: moon
+    400186: moon_orbit
+    400188: neptune
+    400190: neptune_orbit
+    400192: orbit1
+    400194: orbit2
+    400196: orbit3
+    400198: orbit4
+    400200: orbit5
+    400202: orbit6
+    400204: orbit7
+    400206: orbit8
+    400208: orbit9
+    400210: pluto
+    400212: saturn
+    400214: saturn 1
+    400216: saturn_orbit
+    400218: saturn_ring
+    400220: //RootNode
+    400222: sun
+    400224: sun 1
+    400226: sun_atmosphere
+    400228: uranus
+    400230: uranus_orbit
+    400232: venus
+    400234: venus_orbit
+    2300000: earth 1
+    2300002: earth_orbit
+    2300004: instancer1_Asteroid_A_id_0
+    2300006: instancer1_Asteroid_A_id_1
+    2300008: instancer1_Asteroid_A_id_10
+    2300010: instancer1_Asteroid_A_id_11
+    2300012: instancer1_Asteroid_A_id_12
+    2300014: instancer1_Asteroid_A_id_14
+    2300016: instancer1_Asteroid_A_id_17
+    2300018: instancer1_Asteroid_A_id_18
+    2300020: instancer1_Asteroid_A_id_2
+    2300022: instancer1_Asteroid_A_id_24
+    2300024: instancer1_Asteroid_A_id_25
+    2300026: instancer1_Asteroid_A_id_27
+    2300028: instancer1_Asteroid_A_id_28
+    2300030: instancer1_Asteroid_A_id_29
+    2300032: instancer1_Asteroid_A_id_3
+    2300034: instancer1_Asteroid_A_id_31
+    2300036: instancer1_Asteroid_A_id_32
+    2300038: instancer1_Asteroid_A_id_33
+    2300040: instancer1_Asteroid_A_id_34
+    2300042: instancer1_Asteroid_A_id_35
+    2300044: instancer1_Asteroid_A_id_37
+    2300046: instancer1_Asteroid_A_id_38
+    2300048: instancer1_Asteroid_A_id_7
+    2300050: instancer1_Asteroid_A_id_9
+    2300052: instancer1_Asteroid_B_id_13
+    2300054: instancer1_Asteroid_B_id_15
+    2300056: instancer1_Asteroid_B_id_16
+    2300058: instancer1_Asteroid_B_id_19
+    2300060: instancer1_Asteroid_B_id_20
+    2300062: instancer1_Asteroid_B_id_21
+    2300064: instancer1_Asteroid_B_id_22
+    2300066: instancer1_Asteroid_B_id_23
+    2300068: instancer1_Asteroid_B_id_26
+    2300070: instancer1_Asteroid_B_id_30
+    2300072: instancer1_Asteroid_B_id_36
+    2300074: instancer1_Asteroid_B_id_39
+    2300076: instancer1_Asteroid_B_id_4
+    2300078: instancer1_Asteroid_B_id_40
+    2300080: instancer1_Asteroid_B_id_5
+    2300082: instancer1_Asteroid_B_id_6
+    2300084: instancer1_Asteroid_B_id_8
+    2300086: jupiter
+    2300088: jupiter_orbit
+    2300090: mars
+    2300092: mars_orbit
+    2300094: mercury
+    2300096: mercury_orbit
+    2300098: moon
+    2300100: neptune
+    2300102: neptune_orbit
+    2300104: pluto
+    2300106: saturn 1
+    2300108: saturn_orbit
+    2300110: saturn_ring
+    2300112: sun 1
+    2300114: sun_atmosphere
+    2300116: uranus
+    2300118: uranus_orbit
+    2300120: venus
+    2300122: venus_orbit
+    3300000: earth 1
+    3300002: earth_orbit
+    3300004: instancer1_Asteroid_A_id_0
+    3300006: instancer1_Asteroid_A_id_1
+    3300008: instancer1_Asteroid_A_id_10
+    3300010: instancer1_Asteroid_A_id_11
+    3300012: instancer1_Asteroid_A_id_12
+    3300014: instancer1_Asteroid_A_id_14
+    3300016: instancer1_Asteroid_A_id_17
+    3300018: instancer1_Asteroid_A_id_18
+    3300020: instancer1_Asteroid_A_id_2
+    3300022: instancer1_Asteroid_A_id_24
+    3300024: instancer1_Asteroid_A_id_25
+    3300026: instancer1_Asteroid_A_id_27
+    3300028: instancer1_Asteroid_A_id_28
+    3300030: instancer1_Asteroid_A_id_29
+    3300032: instancer1_Asteroid_A_id_3
+    3300034: instancer1_Asteroid_A_id_31
+    3300036: instancer1_Asteroid_A_id_32
+    3300038: instancer1_Asteroid_A_id_33
+    3300040: instancer1_Asteroid_A_id_34
+    3300042: instancer1_Asteroid_A_id_35
+    3300044: instancer1_Asteroid_A_id_37
+    3300046: instancer1_Asteroid_A_id_38
+    3300048: instancer1_Asteroid_A_id_7
+    3300050: instancer1_Asteroid_A_id_9
+    3300052: instancer1_Asteroid_B_id_13
+    3300054: instancer1_Asteroid_B_id_15
+    3300056: instancer1_Asteroid_B_id_16
+    3300058: instancer1_Asteroid_B_id_19
+    3300060: instancer1_Asteroid_B_id_20
+    3300062: instancer1_Asteroid_B_id_21
+    3300064: instancer1_Asteroid_B_id_22
+    3300066: instancer1_Asteroid_B_id_23
+    3300068: instancer1_Asteroid_B_id_26
+    3300070: instancer1_Asteroid_B_id_30
+    3300072: instancer1_Asteroid_B_id_36
+    3300074: instancer1_Asteroid_B_id_39
+    3300076: instancer1_Asteroid_B_id_4
+    3300078: instancer1_Asteroid_B_id_40
+    3300080: instancer1_Asteroid_B_id_5
+    3300082: instancer1_Asteroid_B_id_6
+    3300084: instancer1_Asteroid_B_id_8
+    3300086: jupiter
+    3300088: jupiter_orbit
+    3300090: mars
+    3300092: mars_orbit
+    3300094: mercury
+    3300096: mercury_orbit
+    3300098: moon
+    3300100: neptune
+    3300102: neptune_orbit
+    3300104: pluto
+    3300106: saturn 1
+    3300108: saturn_orbit
+    3300110: saturn_ring
+    3300112: sun 1
+    3300114: sun_atmosphere
+    3300116: uranus
+    3300118: uranus_orbit
+    3300120: venus
+    3300122: venus_orbit
     4300000: sun_atmosphere
     4300002: sun
     4300004: mercury
     4300006: venus
-    4300008: moon
-    4300010: earth
+    4300008: earth
+    4300010: moon
     4300012: mars
     4300014: jupiter
     4300016: saturn_ring
@@ -176,22 +378,55 @@ ModelImporter:
     4300020: uranus
     4300022: neptune
     4300024: pluto
-    4300026: mercury_orbit_color
-    4300028: venus_orbit_color
-    4300030: earth_orbit_color
-    4300032: mars_orbit_color
-    4300034: jupiter_orbit_color
-    4300036: saturn_orbit_color
-    4300038: uranus_orbit_color
-    4300040: neptune_orbit_color
-    4300042: mercury_orbit
-    4300044: venus_orbit
-    4300046: earth_orbit
-    4300048: mars_orbit
-    4300050: jupiter_orbit
-    4300052: saturn_orbit
-    4300054: uranus_orbit
-    4300056: neptune_orbit
+    4300026: mercury_orbit
+    4300028: venus_orbit
+    4300030: earth_orbit
+    4300032: mars_orbit
+    4300034: jupiter_orbit
+    4300036: saturn_orbit
+    4300038: uranus_orbit
+    4300040: neptune_orbit
+    4300042: instancer1_Asteroid_A_id_0
+    4300044: instancer1_Asteroid_A_id_1
+    4300046: instancer1_Asteroid_A_id_2
+    4300048: instancer1_Asteroid_A_id_3
+    4300050: instancer1_Asteroid_B_id_4
+    4300052: instancer1_Asteroid_B_id_5
+    4300054: instancer1_Asteroid_B_id_6
+    4300056: instancer1_Asteroid_A_id_7
+    4300058: instancer1_Asteroid_B_id_8
+    4300060: instancer1_Asteroid_A_id_9
+    4300062: instancer1_Asteroid_A_id_10
+    4300064: instancer1_Asteroid_A_id_11
+    4300066: instancer1_Asteroid_A_id_12
+    4300068: instancer1_Asteroid_B_id_13
+    4300070: instancer1_Asteroid_A_id_14
+    4300072: instancer1_Asteroid_B_id_15
+    4300074: instancer1_Asteroid_B_id_16
+    4300076: instancer1_Asteroid_A_id_17
+    4300078: instancer1_Asteroid_A_id_18
+    4300080: instancer1_Asteroid_B_id_19
+    4300082: instancer1_Asteroid_B_id_20
+    4300084: instancer1_Asteroid_B_id_21
+    4300086: instancer1_Asteroid_B_id_22
+    4300088: instancer1_Asteroid_B_id_23
+    4300090: instancer1_Asteroid_A_id_24
+    4300092: instancer1_Asteroid_A_id_25
+    4300094: instancer1_Asteroid_B_id_26
+    4300096: instancer1_Asteroid_A_id_27
+    4300098: instancer1_Asteroid_A_id_28
+    4300100: instancer1_Asteroid_A_id_29
+    4300102: instancer1_Asteroid_B_id_30
+    4300104: instancer1_Asteroid_A_id_31
+    4300106: instancer1_Asteroid_A_id_32
+    4300108: instancer1_Asteroid_A_id_33
+    4300110: instancer1_Asteroid_A_id_34
+    4300112: instancer1_Asteroid_A_id_35
+    4300114: instancer1_Asteroid_B_id_36
+    4300116: instancer1_Asteroid_A_id_37
+    4300118: instancer1_Asteroid_A_id_38
+    4300120: instancer1_Asteroid_B_id_39
+    4300122: instancer1_Asteroid_B_id_40
     7400000: systemMoving
     7400002: planetMoving
     9500000: //RootNode
@@ -214,15 +449,15 @@ ModelImporter:
     animationRotationError: 0.5
     animationPositionError: 0.5
     animationScaleError: 0.5
-    animationWrapMode: 2
+    animationWrapMode: 0
     extraExposedTransformPaths: []
     clipAnimations:
     - serializedVersion: 16
       name: systemMoving
       takeName: Take 001
       firstFrame: 1
-      lastFrame: 12240
-      wrapMode: 0
+      lastFrame: 12350
+      wrapMode: 2
       orientationOffsetY: 0
       level: 0
       cycleOffset: 0
@@ -243,6 +478,172 @@ ModelImporter:
       events: []
       transformMask:
       - path: 
+        weight: 1
+      - path: asteroid_belt
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp/instancer1_Asteroid_A_id_0
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp/instancer1_Asteroid_A_id_1
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp/instancer1_Asteroid_A_id_2
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp/instancer1_Asteroid_A_id_3
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp/instancer1_Asteroid_A_id_7
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp/instancer1_Asteroid_A_id_9
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp/instancer1_Asteroid_A_id_10
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp/instancer1_Asteroid_A_id_11
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp/instancer1_Asteroid_A_id_12
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp/instancer1_Asteroid_A_id_14
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp/instancer1_Asteroid_A_id_17
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp/instancer1_Asteroid_A_id_18
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp/instancer1_Asteroid_A_id_24
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp/instancer1_Asteroid_A_id_25
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp/instancer1_Asteroid_A_id_27
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp/instancer1_Asteroid_A_id_28
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp/instancer1_Asteroid_A_id_29
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp/instancer1_Asteroid_A_id_31
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp/instancer1_Asteroid_A_id_32
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp/instancer1_Asteroid_A_id_33
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp/instancer1_Asteroid_A_id_34
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp/instancer1_Asteroid_A_id_35
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp/instancer1_Asteroid_A_id_37
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp/instancer1_Asteroid_A_id_38
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp/instancer1_Asteroid_B_id_4
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp/instancer1_Asteroid_B_id_5
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp/instancer1_Asteroid_B_id_6
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp/instancer1_Asteroid_B_id_8
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp/instancer1_Asteroid_B_id_13
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp/instancer1_Asteroid_B_id_15
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp/instancer1_Asteroid_B_id_16
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp/instancer1_Asteroid_B_id_19
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp/instancer1_Asteroid_B_id_20
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp/instancer1_Asteroid_B_id_21
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp/instancer1_Asteroid_B_id_22
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp/instancer1_Asteroid_B_id_23
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp/instancer1_Asteroid_B_id_26
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp/instancer1_Asteroid_B_id_30
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp/instancer1_Asteroid_B_id_36
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp/instancer1_Asteroid_B_id_39
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp/instancer1_Asteroid_B_id_40
         weight: 1
       - path: earth
         weight: 1
@@ -319,7 +720,7 @@ ModelImporter:
       name: planetMoving
       takeName: Take 001
       firstFrame: -240
-      lastFrame: 0
+      lastFrame: 1
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
@@ -341,6 +742,172 @@ ModelImporter:
       events: []
       transformMask:
       - path: 
+        weight: 1
+      - path: asteroid_belt
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp/instancer1_Asteroid_A_id_0
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp/instancer1_Asteroid_A_id_1
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp/instancer1_Asteroid_A_id_2
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp/instancer1_Asteroid_A_id_3
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp/instancer1_Asteroid_A_id_7
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp/instancer1_Asteroid_A_id_9
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp/instancer1_Asteroid_A_id_10
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp/instancer1_Asteroid_A_id_11
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp/instancer1_Asteroid_A_id_12
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp/instancer1_Asteroid_A_id_14
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp/instancer1_Asteroid_A_id_17
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp/instancer1_Asteroid_A_id_18
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp/instancer1_Asteroid_A_id_24
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp/instancer1_Asteroid_A_id_25
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp/instancer1_Asteroid_A_id_27
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp/instancer1_Asteroid_A_id_28
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp/instancer1_Asteroid_A_id_29
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp/instancer1_Asteroid_A_id_31
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp/instancer1_Asteroid_A_id_32
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp/instancer1_Asteroid_A_id_33
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp/instancer1_Asteroid_A_id_34
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp/instancer1_Asteroid_A_id_35
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp/instancer1_Asteroid_A_id_37
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp/instancer1_Asteroid_A_id_38
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp/instancer1_Asteroid_B_id_4
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp/instancer1_Asteroid_B_id_5
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp/instancer1_Asteroid_B_id_6
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp/instancer1_Asteroid_B_id_8
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp/instancer1_Asteroid_B_id_13
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp/instancer1_Asteroid_B_id_15
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp/instancer1_Asteroid_B_id_16
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp/instancer1_Asteroid_B_id_19
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp/instancer1_Asteroid_B_id_20
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp/instancer1_Asteroid_B_id_21
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp/instancer1_Asteroid_B_id_22
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp/instancer1_Asteroid_B_id_23
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp/instancer1_Asteroid_B_id_26
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp/instancer1_Asteroid_B_id_30
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp/instancer1_Asteroid_B_id_36
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp/instancer1_Asteroid_B_id_39
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp/instancer1_Asteroid_B_id_40
         weight: 1
       - path: earth
         weight: 1
