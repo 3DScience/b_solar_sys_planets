@@ -30,7 +30,7 @@
 				}]
 		},
 		{
-			"ObjectName": "sun 1",  "Title": "MẶT TRỜI (Sun)",
+			"ObjectName": "sun_plane", "Title": "MẶT TRỜI (Sun)",
 			"texts":[{
 					"displayUI":"common_asset_bundle/RichTextUi_1",
 					"header":"Tóm tắt",
