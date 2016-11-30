@@ -1,10 +1,10 @@
 ﻿{
-    "name": "earth",
-	"title": "this is our earth",
+    "name": "mercury",
+	"title": "this is our mercury",
     "info": " this scence is for testing!",
     "mainObjects": [
 	  {
-			"ObjectName": "earth 1", "Title": "1.Sao Thủy (Mercury)",
+			"ObjectName": "mercury", "Title": "1.Sao Thủy (Mercury)",
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",

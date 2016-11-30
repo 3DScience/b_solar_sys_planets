@@ -1,10 +1,10 @@
 ﻿{
-    "name": "earth",
-	"title": "this is our earth",
+    "name": "venus",
+	"title": "this is our venus",
     "info": " this scence is for testing!",
     "mainObjects": [
 	  {
-			"ObjectName": "earth 1", "Title": "2.Sao Kim (Venus)",
+			"ObjectName": "venus", "Title": "2.Sao Kim (Venus)",
 			"texts":[
 				{
 					"displayUI":"common_asset_bundle/RichTextUi_2",
