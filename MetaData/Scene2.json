@@ -13,10 +13,16 @@
 			"interactives": [
 				{
                     "eventName": "ONLOAD",
-                    "actions":[
-						{
+                    "actions":[{
+							"actionName":"MOVE_CAMERA",
+							"actionParams": [{"paramName":"startMarker", "paramValue":"cameraMarkerStart" },{"paramName":"endMarker", "paramValue":"cameraMarkerTarget" }]
+						} ]
+                },
+				{
+                    "eventName": "MOVE_CAMERA_END",
+                    "actions":[{
 							"actionName":"SHOW_TEXT",
-							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
 						} ]
                 },
 				{
