@@ -10,6 +10,16 @@
 					"displayUI":"common_asset_bundle/RichTextUi_2",
 					"header":"Giới thiệu",
 					"textFile":"Scene8_Jupiter_1"
+				},
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Va chạm",
+					"textFile":"Scene8_Jupiter_1"
+				},
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Tiến bộ khoa học",
+					"textFile":"Scene8_Jupiter_3"
 				}
 			],
 			"interactives": [
