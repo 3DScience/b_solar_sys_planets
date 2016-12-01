@@ -1,0 +1,37 @@
+﻿{
+    "name": "Saturn",
+	"title": "Saturn pages",
+    "info": "Brief of Saturn",
+    "mainObjects": [
+	  {
+			"ObjectName": "saturn 1", "Title": "6.SAO THỔ",
+			"texts":[
+				{
+					"displayUI":"common_asset_bundle/RichTextUi_2",
+					"header":"Giới thiệu",
+					"textFile":"Scene9_Saturn_1"
+				}
+			],
+			"interactives": [
+				{
+                    "eventName": "ONLOAD",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
+						}
+					]
+                },
+                {
+                    "eventName": "TOUCH",
+                    "actions":[
+						{
+							"actionName":"SHOW_TEXT",
+							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"true" }]
+						}
+					]
+                }
+			]
+		}
+    ]
+}
