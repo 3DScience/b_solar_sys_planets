@@ -161,7 +161,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"7" }]
 						}
 					]
 				},
@@ -189,7 +189,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"8" }]
 						}
 					]
 				},
@@ -217,7 +217,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"9" }]
 						}
 					]
 				},
@@ -245,7 +245,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"10" }]
 						}
 					]
 				},
@@ -273,7 +273,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"11" }]
 						}
 					]
 				},
@@ -302,7 +302,7 @@
 					 "actions":[
 						{
 							"actionName":"CHANGE_SCENE",
-							"actionParams": [{"paramName":"scence_index", "paramValue":"3" }]
+							"actionParams": [{"paramName":"scence_index", "paramValue":"12" }]
 						}
 					]
 				},
@@ -316,5 +316,6 @@
 					]
                 }]
 		}
+
     ]
 }
