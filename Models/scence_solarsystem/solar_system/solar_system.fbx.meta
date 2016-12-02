@@ -719,8 +719,8 @@ ModelImporter:
     - serializedVersion: 16
       name: planetMoving
       takeName: Take 001
-      firstFrame: -240
-      lastFrame: 1
+      firstFrame: -237.5
+      lastFrame: -0
       wrapMode: 2
       orientationOffsetY: 0
       level: 0
