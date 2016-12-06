@@ -14,12 +14,12 @@
 				{
                     "eventName": "ONLOAD",
                     "actions":[{
-							"actionName":"MOVE_CAMERA",
-							"actionParams": [{"paramName":"startMarker", "paramValue":"cameraMarkerStart" },{"paramName":"endMarker", "paramValue":"cameraMarkerTarget" }]
+							"actionName":"ANIMATE_CAMERA",
+							"actionParams": [{"paramName":"startMarker", "paramValue":"cameraMarkerStart" },{"paramName":"endMarker", "paramValue":"cameraMarkerTarget" },{"paramName":"playOneTime", "paramValue":"true" }]
 						} ]
                 },
 				{
-                    "eventName": "MOVE_CAMERA_END",
+                    "eventName": "ANIMATE_CAMERA_END",
                     "actions":[{
 							"actionName":"SHOW_TEXT",
 							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
