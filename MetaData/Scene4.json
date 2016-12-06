@@ -26,6 +26,15 @@
 							"actionParams": [{"paramName":"hideOnTouchNothing", "paramValue":"false" }]
 						}
 					]
+                },	
+				{
+                    "eventName": "DRAG",
+                    "actions":[
+						{
+							"actionName":"MOVE_CAMERA",
+							"actionParams": []
+						}
+					]
                 },
                 {
                     "eventName": "TOUCH",

@@ -32,6 +32,15 @@
 						}
 					]
                 },
+				{
+                    "eventName": "DRAG",
+                    "actions":[
+						{
+							"actionName":"MOVE_CAMERA",
+							"actionParams": []
+						}
+					]
+                },
                 {
                     "eventName": "TOUCH",
                     "actions":[
