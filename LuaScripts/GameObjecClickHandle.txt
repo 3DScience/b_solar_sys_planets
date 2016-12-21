@@ -1,0 +1,5 @@
+print "sun click"
+print (texts[1]["TextContent"]);
+if(RichTextUi_1~=nill) then
+	RichTextUi_1.displayText(richtextui,title,texts[1]["Header"],texts[1]["TextContent"])
+end

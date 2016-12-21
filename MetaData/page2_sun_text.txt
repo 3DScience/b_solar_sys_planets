@@ -1,0 +1,19 @@
+title="MẶT TRỜI"
+texts={
+	[1]={
+		["Header"]="Giới Thiệu",
+		["TextContent"]=[[<size=20>Mặt trời là trung tâm của Thái dương hệ và là một trong số hàng trăm tỷ ngôi sao trong Ngân Hà (Milky Galaxy). Các hành tinh trong hệ mặt trời đều có quỹ đạo quay quanh mặt trời.
+
+- Bán kính Mặt trời: 696.000km (109E)
+- Khối lượng: tương đương 332.946 khối lượng Trái Đất
+- Khoảng cách tới Trái Đất: 150 triệu km (1 đơn vị thiên văn AU, tương ứng với 8 phút ánh sáng)
+- Nhiệt độ bề mặt của Mặt Trời vào khoảng 6.000K, tại các vết đen có nhiệt độ khoảng 4800 - 5000K
+- Nhiệt độ tại tâm Mặt Trời là khoảng 15 triệu độ K, nhiệt độ này có được do phản ứng nhiệt hạch xảy ra liên tiếp trong nhân Mặt Trời. Chính phản ứng này cung cấp năng lượng cho Mặt Trời toả sáng.
+
+<size=16><i>*E: Tham số tương ứng với trái đất
+*K: Độ Kevin, 0K tương ứng với -273°C</i></size>
+</size>]]
+	}
+}
+GoToSceneName="earth"
+
