@@ -429,6 +429,7 @@ ModelImporter:
     4300122: instancer1_Asteroid_B_id_40
     7400000: systemMoving
     7400002: planetMoving
+    7400004: earth_moon
     9500000: //RootNode
     11100000: //RootNode
   materials:
@@ -980,6 +981,250 @@ ModelImporter:
       maskType: 0
       maskSource: {instanceID: 0}
       additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: earth_moon
+      takeName: Take 001
+      firstFrame: -240
+      lastFrame: -8
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 1
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: asteroid_belt
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_0_grp/instancer1_Asteroid_A_id_0
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_1_grp/instancer1_Asteroid_A_id_1
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_2_grp/instancer1_Asteroid_A_id_2
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_3_grp/instancer1_Asteroid_A_id_3
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_7_grp/instancer1_Asteroid_A_id_7
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_9_grp/instancer1_Asteroid_A_id_9
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_10_grp/instancer1_Asteroid_A_id_10
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_11_grp/instancer1_Asteroid_A_id_11
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_12_grp/instancer1_Asteroid_A_id_12
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_14_grp/instancer1_Asteroid_A_id_14
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_17_grp/instancer1_Asteroid_A_id_17
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_18_grp/instancer1_Asteroid_A_id_18
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_24_grp/instancer1_Asteroid_A_id_24
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_25_grp/instancer1_Asteroid_A_id_25
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_27_grp/instancer1_Asteroid_A_id_27
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_28_grp/instancer1_Asteroid_A_id_28
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_29_grp/instancer1_Asteroid_A_id_29
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_31_grp/instancer1_Asteroid_A_id_31
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_32_grp/instancer1_Asteroid_A_id_32
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_33_grp/instancer1_Asteroid_A_id_33
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_34_grp/instancer1_Asteroid_A_id_34
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_35_grp/instancer1_Asteroid_A_id_35
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_37_grp/instancer1_Asteroid_A_id_37
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_A_id_38_grp/instancer1_Asteroid_A_id_38
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_4_grp/instancer1_Asteroid_B_id_4
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_5_grp/instancer1_Asteroid_B_id_5
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_6_grp/instancer1_Asteroid_B_id_6
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_8_grp/instancer1_Asteroid_B_id_8
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_13_grp/instancer1_Asteroid_B_id_13
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_15_grp/instancer1_Asteroid_B_id_15
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_16_grp/instancer1_Asteroid_B_id_16
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_19_grp/instancer1_Asteroid_B_id_19
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_20_grp/instancer1_Asteroid_B_id_20
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_21_grp/instancer1_Asteroid_B_id_21
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_22_grp/instancer1_Asteroid_B_id_22
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_23_grp/instancer1_Asteroid_B_id_23
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_26_grp/instancer1_Asteroid_B_id_26
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_30_grp/instancer1_Asteroid_B_id_30
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_36_grp/instancer1_Asteroid_B_id_36
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_39_grp/instancer1_Asteroid_B_id_39
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp
+        weight: 1
+      - path: asteroid_belt/instancer1_Asteroid_B_id_40_grp/instancer1_Asteroid_B_id_40
+        weight: 1
+      - path: earth
+        weight: 1
+      - path: earth/earth 1
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: jupiter
+        weight: 1
+      - path: jupiter_orbit
+        weight: 1
+      - path: mars
+        weight: 1
+      - path: mars_orbit
+        weight: 1
+      - path: mercury
+        weight: 1
+      - path: mercury_orbit
+        weight: 1
+      - path: moon
+        weight: 1
+      - path: neptune
+        weight: 1
+      - path: neptune_orbit
+        weight: 1
+      - path: pluto
+        weight: 1
+      - path: saturn
+        weight: 1
+      - path: saturn/saturn 1
+        weight: 1
+      - path: saturn/saturn_ring
+        weight: 1
+      - path: saturn_orbit
+        weight: 1
+      - path: sun
+        weight: 1
+      - path: sun/sun 1
+        weight: 1
+      - path: sun/sun_atmosphere
+        weight: 1
+      - path: uranus
+        weight: 1
+      - path: uranus_orbit
+        weight: 1
+      - path: venus
+        weight: 1
+      - path: venus_orbit
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
     isReadable: 1
   meshes:
     lODScreenPercentages: []
@@ -1005,6 +1250,7 @@ ModelImporter:
   importAnimation: 1
   copyAvatar: 0
   humanDescription:
+    serializedVersion: 2
     human: []
     skeleton: []
     armTwist: 0.5
@@ -1015,7 +1261,10 @@ ModelImporter:
     legStretch: 0.05
     feetSpacing: 0
     rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
     hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 0
   lastHumanDescriptionAvatarSource: {instanceID: 0}
   animationType: 1
   humanoidOversampling: 1

@@ -1,0 +1,12 @@
+
+a_animation[ "systemMoving"].time=math.random(0,500)
+if( store==nil or store.skipAnimation==nil or store.skipAnimation==false) then
+	store.skipAnimation=true;
+	runblock(flowchart, "AnimationCam")
+	wait(7)
+end
+richtextui=luautils.Instantiate2(richtextui_1,lua)
+luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+luaScriptComponent.OnExecute(); 
+RichTextUi_1.displayText(richtextui,title,texts[1]["Header"],texts[1]["TextContent"])
+
