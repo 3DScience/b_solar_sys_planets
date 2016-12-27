@@ -1,0 +1,24 @@
+
+metaDatas={
+	["sun"]={
+		["title"]="this is our sun",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[<size=20>Trong dải Ngân Hà có hàng trăm tỷ ngôi sao và Mặt Trời là một ngôi sao trong số đó, nằm ở gần ngoài rìa của dải Ngân Hà. Mặt Trời quay quanh trung tâm của Ngân Hà ở khoảng cách xấp xỉ 24.000–26.000 năm ánh sáng từ trung tâm Ngân Hà, di chuyển theo hướng chùm sao Cygnus và hoàn thành một vòng trong khoảng 225–250 triệu năm (một năm Ngân hà). Tốc độ trên quỹ đạo của nó vào khoảng 250km/s. Mặt Trời sáng hơn 85% các ngôi sao trong Ngân Hà với đa số là các sao lùn đỏ.
+Mặt trời là trung tâm của hệ Hệ Mặt Trời, chiếm khoảng 99,86% khối lượng của Hệ Mặt Trời. Khoảng cách trung bình giữa Mặt Trời và Trái Đất xấp xỉ 149,6 triệu kilômét (1 Đơn vị thiên văn AU) nên ánh sáng Mặt Trời cần 8 phút 19 giây mới đến được Trái Đất. Mặt trời bức xạ năng lượng từ phản ứng tổng hợp hạt nhân của hạt nhân hydro thành heli khiến cho khối lượng của mặt trời liên tục giảm xuống. Năng lượng Mặt Trời ở dạng ánh sáng hỗ trợ cho hầu hết sự sống trên Trái Đất thông qua quá trình quang hợp, và điều khiển khí hậu cũng như thời tiết trên Trái Đất. Nhiều nền văn minh cổ xưa đã biết điều này và thờ thần Mặt trời như là một vị thần của sự sống.
+</size>]]
+		},
+		[2]={
+			["Header"]="Sự hình thành",
+			["TextContent"]=[[<size=20>Mặt Trời được hình thành cách đây khoảng 4,6 tỉ năm và đã tồn tai được một nửa vòng đời của nó. Do các phản ứng tổng hợp hạt nhân trong lõi của nó chuyển hydro thành heli, mỗi giây có hơn 4 triệu tấn vật chất trong lõi của Mặt Trời được chuyển thành năng lượng, tạo ra neutrino và các dạng bức xạ năng lượng Mặt Trời. Với tốc độ này cho đến nay, Mặt Trời đã chuyển đổi khoảng 100 lần khối lượng vật chất Trái Đất thành năng lượng. Mặt Trời sẽ mất tổng cộng khoảng 10 tỷ năm để kết thúc sự tồn tại của nó trước khi trở thành sao lùn trắng.
+</size>]]
+		},
+		[3]={
+			["Header"]="Kết thúc",
+			["TextContent"]=[[<size=20>Kết quả của phản ứng tổng hợp hạt nhân từ hydro là các nguyên tử heli được hình thành trong lõi của Mặt Trời, độ sáng của ngôi sao này đang từ từ tăng lên. Độ sáng của Mặt Trời sẽ tăng 10% trong 1,1 tỷ năm tới, 40% sau 3,5 tỷ năm.
+Mặt Trời không có khối lượng đủ lớn để kết thúc vòng đời bằng một vụ nổ tung như siêu tân tinh. Ngược lại, trong vòng 4-5 tỷ năm tới nó sẽ đi tới trạng thái sao khổng lồ đỏ của mình, diễn ra khi nguồn hiđrô trong lõi cạn kiệt. Sau đó nó bắt đầu phun trào hêli và nhiệt độ phần lõi sẽ tăng lên đến 10 triệu K và sẽ tạo ra carbon để trở thành gần như là sao khổng lồ. Các phản ứng nhiệt hạch sẽ sử dụng heli làm nguyên liệu tổng hợp nên các nguyên tố nặng hơn heli, làm cho lớp ngoài cùng của Mặt Trời sẽ giãn nở, đạt đến vị trí bên ngoài quỹ đạo Trái Đất hiện tại, gấp 250 lần bán kính hiện tại của Mặt Trời. Tuy nhiên, theo thời gian, khi đạt tới gần một sao khổng lồ đỏ, Mặt Trời sẽ mất đi khoảng 30% khối lượng hiện tại do gió sao khiến lực hút lên các hành tinh giảm đi và quỹ đạo của các hành tinh sẽ dần chuyển động ra xa. Nếu như thế sẽ làm quỹ đạo Trái Đất dịch ra xa hơn về phía bên ngoài, ngăn không cho nó bị nhấn chìm, nhưng các nghiên cứu mới cho thấy rằng Trái Đất sẽ bị Mặt Trời "nuốt chửng" do các tương tác thủy triều.
+Sau giai đoạn đỏ khổng lồ, các xung nhiệt khổng lồ sẽ làm cho Mặt Trời phun ra các lớp bên ngoài của nó để tạo ra tinh vân. Mặt Trời sau đó sẽ trở thành sao lùn trắng, nguội dần đi vĩnh viễn. Kịch bản tiến hóa sao này là rất điển hình đối với những sao có khối lượng thấp đến trung bình.
+</size>]]
+		},
+		["GoToSceneName"]="sun"
+}

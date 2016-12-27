@@ -1,0 +1,48 @@
+
+metaDatas={
+	["solar"]={
+		["title"]="HỆ MẶT TRỜI",
+		[1]={
+			["Header"]="Giới Thiệu",
+			["TextContent"]=[[<size=20>Hệ mặt trời (Solar System) bao gồm Mặt trời và các thiên thể có quỹ đạo bay xung quanh mặt trời. Trong các thiên thể đó, lớn nhất là 8 hành tinh, số còn lại nhỏ hơn nhiều bao gồm các hành tinh lùn, các tiểu hành tinh, sao chổi, thiên thạch ...
+Hệ mặt trời được hình thành 4.6 tỷ năm trước từ một đám mây khí khổng lồ với hầu hết khối lượng tích tụ ở trung tâm và tạo thành mặt trời trong khi phần còn lại dẹt ra trở thành một đĩa đám mây bụi tiền hành tinh, và dần trở thành các hành tinh, mặt trăng, tiểu hành tinh ... trong hệ mặt trời. Đó cũng là nguyên nhân vì sao các hành tinh có quỹ đạo gần như trên cùng một mặt phẳng
+Trong cuốn sách này, chúng ta sẽ tìm hiểu các thông tin chính về các hành tinh. Xin chú ý rằng kích thước các hành tinh, bán kính quỹ đạo mô phỏng trong sách không giống như đúng tỷ lệ thật.
+</size>]]
+		},
+		["GoToSceneName"]="sun"
+	},
+	["sun"]={
+		["title"]="MẶT TRỜI",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Mặt trời là trung tâm của Thái dương hệ và là một trong số hàng trăm tỷ ngôi sao trong Ngân Hà (Milky Galaxy). Các hành tinh trong hệ mặt trời đều có quỹ đạo quay quanh mặt trời.
+
+- Bán kính Mặt trời: 696.000km (109E)
+- Khối lượng: tương đương 332.946 khối lượng Trái Đất
+- Khoảng cách tới Trái Đất: 150 triệu km (1 đơn vị thiên văn AU, tương ứng với 8 phút ánh sáng)
+- Nhiệt độ bề mặt của Mặt Trời vào khoảng 6.000K, tại các vết đen có nhiệt độ khoảng 4800 - 5000K
+- Nhiệt độ tại tâm Mặt Trời là khoảng 15 triệu độ K, nhiệt độ này có được do phản ứng nhiệt hạch xảy ra liên tiếp trong nhân Mặt Trời. Chính phản ứng này cung cấp năng lượng cho Mặt Trời toả sáng.
+
+<size=16><i>*E: Tham số tương ứng với trái đất
+*K: Độ Kevin, 0K tương ứng với -273°C</i></size>
+</size>]]
+		},
+		["GoToSceneName"]="sun"
+	},
+	["earth"]={
+		["title"]="3.TRÁI ĐẤT (Earth)",
+		[1]={
+			["Header"]="Tóm tắt	",
+			["TextContent"]=[[<size=20>Trái đất là ngôi nhà của chúng ta, khi nhìn từ vũ trụ nó sẽ có màu xanh bởi có đại dương nước bao phủ 3/4 bề mặt Trái Đất. Trái đất cũng là nơi duy nhất có chứa sự sống được biết cho tới nay.
+
+- Khoảng cách từ Mặt Trời : 1 AU (149,6 triệu km)
+- Chu kì quĩ đạo: 365,26 ngày
+- Chu kì tự quay: 24 giờ
+- Đường kính: 12.756km
+- Nhiệt độ bề mặt: 260 – 310K
+- Số mặt trăng: 01 (Mặt Trăng)
+</size>]]
+		},
+		["GoToSceneName"]="earth"
+	}
+}

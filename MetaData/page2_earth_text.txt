@@ -13,5 +13,5 @@ texts={
 </size>]]
 	}
 }
-GoToSceneName="earth"
+GoToSceneName="sun"
 
