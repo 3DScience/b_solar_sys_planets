@@ -9,5 +9,5 @@ richtextui=luautils.Instantiate2(richtextui_1,lua)
 luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
 luaScriptComponent.OnExecute(); 
 metaData=metaDatas["solar"];
-RichTextUi_1.displayText(richtextui,metaData)
+RichTextUi.displayText(richtextui,metaData)
 

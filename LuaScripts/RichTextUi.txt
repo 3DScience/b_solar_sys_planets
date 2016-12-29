@@ -1,0 +1,75 @@
+
+print "RichTextUi runing ...."
+RichTextUi={}
+RichTextUi.mainCamera=nil;
+RichTextUi.textUI=nil;
+RichTextUi.currentTextIdx=1;
+RichTextUi.f_GoToSceneName=nil;
+RichTextUi.metaData=nil;
+function RichTextUi.InstantiateUi(RichTextUi)
+	richtextui=luautils.Instantiate(RichTextUi)
+	luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+	luaScriptComponent.OnExecute(); 
+end
+function RichTextUi.displayText(textUI,metaData)
+	RichTextUi.textUI=textUI;
+	RichTextUi.metaData=metaData;
+	RichTextUi.LoadTextText(RichTextUi.metaData);
+end
+
+function RichTextUi.LoadTextText(metaData)
+	RichTextUi.textUI.SetActive(true);
+	TitleTextComponent=RichTextUi.textUI.transform.FindChild("Ui/titleBox/txt_title").GetComponent("Text");
+	TitleTextComponent.text=metaData["title"];
+	headerTextComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/txtHeader").GetComponent("Text");
+	headerTextComponent.text=metaData[RichTextUi.currentTextIdx]["Header"];
+	contentTextComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/ScroolRect/txt_info").GetComponent("Text");
+	contentTextComponent.text=metaData[RichTextUi.currentTextIdx]["TextContent"];;
+
+	if (RichTextUi.mainCamera==nil) then
+		RichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
+	end
+	RichTextUi.mainCamera.OnShowUi();
+	-- force scroll to top
+	--type=luautils.getType("UnityEngine.UI.ScrollRect, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+	--print( type)
+	wait(0.1);
+	scrollRectComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/ScroolRect").GetComponent("ScrollRect");
+	print (scrollRectComponent)
+	scrollRectComponent.normalizedPosition = luautils.CreateVecter2(0,1);
+	if( RichTextUi.f_GoToSceneName==nil) then
+		RichTextUi.f_GoToSceneName = getvar(flowchart, "GoToSceneName");
+	end
+	RichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
+
+end
+function RichTextUi.hideUi()
+	print ( "rex command hideUi " );
+	RichTextUi.textUI.SetActive(false);
+	if (RichTextUi.mainCamera==nil) then
+		RichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
+	end
+	RichTextUi.mainCamera.OnHideUi();
+end
+function RichTextUi.ExplorerButtonClick()
+	luautils.Destroy(RichTextUi.textUI);
+	runblock(flowchart, "LoadScene")
+end
+function RichTextUi.NextText()
+	print("RichTextUi.NextText");
+	local nextIdx=RichTextUi.currentTextIdx+1;
+	local text=metaData[nextIdx]
+	if(text~=nil) then
+		RichTextUi.currentTextIdx=nextIdx;
+		RichTextUi.LoadTextText(RichTextUi.metaData);
+	end
+end
+function RichTextUi.PreText()
+	print("RichTextUi.NextText");
+	local nextIdx=RichTextUi.currentTextIdx-1;
+	local text=metaData[nextIdx]
+	if(text~=nil) then
+		RichTextUi.currentTextIdx=nextIdx;
+		RichTextUi.LoadTextText(RichTextUi.metaData);
+	end
+end
