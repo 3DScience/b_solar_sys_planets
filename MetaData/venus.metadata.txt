@@ -1,0 +1,32 @@
+
+metaDatas={
+	["venus"]={
+		["title"]="2.Sao Kim (Venus)",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[<size=20>Sao Kim là hành tinh có nhiều đặc điểm giống với Trái Đất nhất, cả hai hành tinh này đều có kích thước gần ngang bằng nhau và cấu tạo của sao Kim cũng gần giống như Trái Đất. Quỹ đạo của Kim tinh cũng gần với quỹ đạo của Trái Đất hơn bất cứ hành tinh nào khác trong hệ Mặt Trời. Cả hai hành tinh đều có bề mặt còn khá trẻ và đều có bầu khí quyển dày, nhiều mây (tuy nhiên, cần chú ý rằng các đám mây của Sao Kim chủ yếu là acid sulfuric độc).
+Do phần lớn khí quyển của Sao Kim là carbon dioxide nên hiện tượng hiệu ứng nhà kính cực lớn làm cho bề mặt của hành tinh này nóng lên. Nhiệt độ ở đây có thể lên tới 470°C, sao Kim là hành tinh nóng nhất trong Hệ Mặt Trời. Một số nhà khoa học từng cho rằng sao Kim đã có những đại dương trong quá khứ, nhưng đã bốc hơi khi nhiệt độ hành tinh tăng lên do hiệu ứng nhà kính mất kiểm soát. Toàn bộ bề mặt của Sao Kim là một hoang mạc khô cằn với đá và bụi.
+</size>]]
+		},
+		[2]={
+			["Header"]="Quan sát",
+			["TextContent"]=[[<size=20>Sao Kim nằm trong số hiếm hoi các hành tinh mà chúng ta có thể quan sát được khi nó lướt qua Mặt Trời. Do Trái Đất là hành tinh thứ ba của hệ Mặt Trời, vì thế chúng ta chỉ có thể quan sát được sự kiện trên với hai hành tinh là Sao Thủy và Sao Kim. Sao Kim lướt qua Mặt Trời là hiện tượng rất hiếm gặp, phải hơn một thế kỷ mới lại xảy ra một cặp, tức hai lần diễn ra cách nhau khoảng 8 năm.
+Trong hệ Mặt Trời, Sao Kim không phải là hành tinh lớn nhất nhưng vị trí gần Trái Đất khiến nó trở thành ngôi sao sáng nhất trên bầu trời. Nó cũng là vật thể sáng thứ hai về ban đêm chỉ sau Mặt Trăng.
+Sao Kim đạt độ sáng lớn nhất ngay sát thời điểm hoàng hôn hoặc bình minh, do vậy mà dân gian còn gọi là sao Hôm (khi hành tinh này mọc lên lúc hoàng hôn) và sao Mai (khi hành tinh này mọc lên lúc bình minh).
+Sao Kim đã là mục tiêu quan sát của con người từ hàng thiên niên kỷ nay. Theo ghi chép, từ 1.600 năm trước Công Nguyên, người Babylon cổ đại đã theo dõi quỹ đạo của hành tinh này trên bầu trời. Nhà toán học Hy Lạp Pythagoras là người đầu tiên phát hiện ra rằng những ngôi sao sáng nhất vào sáng sớm và chiều tối thực tế chính là một - Sao Kim.
+</size>]]
+		},
+		[3]={
+			["Header"]="Thông tin khác",
+			["TextContent"]=[[<size=20><b><color=lime>Ngày dài hơn năm:</color></b>
+Một ngày trên Sao Kim bằng 243 ngày trên Trái Đất (điều này cho thấy một vòng quay của Sao Kim lâu như thế nào). Trong khi đó, một năm trên hành tinh này (thời gian quay quanh Mặt Trời) lại ngắn hơn, chỉ bằng 224,7 ngày trên Trái Đất.
+
+<b><color=lime>Hành tinh gió:</color></b>
+Những cơn gió thổi qua Sao Kim ở siêu vận tốc, có thể đạt tới 724kph trên lớp mây giữa. Những cơn gió trên Sao Kim còn nhanh hơn cả những cơn cuồng phong mạnh nhất của Trái Đất. Các nhà thiên văn học nói gió sao kim thổi nhanh đến nỗi chúng gây ra sự "siêu quay", khiến các đám mây bị thổi quay 1 vòng quanh hành tinh chỉ trong 4 ngày trên trái đất.
+
+<b><color=lime>Quỹ đạo và chiều quay:</color></b>
+Sao Kim là một trong 2 hành tinh quay từ Đông sang Tây (hành tinh còn lại là Uranus - Sao Thiên Vương), tức ngược hướng quay của các hành tinh còn lại. Quỹ đạo của Sao Kim cũng gần tròn tuyệt đối, trong khi quỹ đạo các hành tinh khác có hình ô-van rõ ràng hơn nhiều.
+</size>]]
+		}
+	}
+}

@@ -8,7 +8,7 @@ metaDatas={
 Hành tinh này được hình thành cách đây 4,6 tỷ năm và sự sống xuất hiện trên bề mặt của nó khoảng 1 tỷ năm trước. Kể từ đó, sinh quyển, bầu khí quyển của Trái Đất và các điều kiện vô cơ khác đã thay đổi đáng kể, tạo điều kiện thuận lợi cho sự phổ biến của các vi sinh vật ưa khí cũng như sự hình thành của tầng ôzôn - lớp bảo vệ quan trọng, cùng với từ trường của Trái Đất, đã ngăn chặn các bức xạ có hại và chở che cho sự sống. Các đặc điểm vật lý của Trái Đất cũng như quỹ đạo hợp lý, cho phép sự sống tồn tại trong thời gian qua. Người ta hy vọng rằng Trái Đất còn có thể hỗ trợ sự sống thêm 1,5 tỷ năm nữa, trước khi kích thước của Mặt Trời tăng lên và tiêu diệt hết sự sống.
 Để nói về Trái Đất trong cuốn sách này là khôn thể, nên chúng ta sẽ có riêng một tập sách về Trái Đất, bao gồm sự hình thành, đặc điểm cũng như tác động từ Mặt Trời và các hành tinh khác. Mong các bạn đón đọc.
 </size>]]
-		},
-		["GoToSceneName"]="sun"
+		
+		}
 	}
 }

@@ -1,0 +1,7 @@
+-- i have to wait for other components load, its suck
+wait(0.2)
+richtextui=luautils.Instantiate2(richtextui_2,lua)
+luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+luaScriptComponent.OnExecute(); 
+metaData=metaDatas[metadataName]
+RichTextUi.displayText(richtextui,metaData)

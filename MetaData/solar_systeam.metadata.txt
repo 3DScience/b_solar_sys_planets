@@ -29,10 +29,43 @@ Trong cuốn sách này, chúng ta sẽ tìm hiểu các thông tin chính về 
 		},
 		["GoToSceneName"]="sun"
 	},
+	["mercury"]={
+		["title"]="1.SAO THỦY (Mercury)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Hành tinh này được đặt tên tương ứng với từ Hermes trong tiếng Hy Lạp, tên gọi của vị thần truyền tin và trộm cắp có đôi giầy có cánh có thể bay đi khắp mọi nơi nhanh hơn cả gió cuốn. Điều này rất lý thú, bởi Sao Thuỷ là hành tinh gần Mặt Trời nhất và có chu kì năm (chu kì quay quanh Mặt Trời) nhỏ nhất trong số các hành tinh, bạn có thể thấy rõ nó hoàn thành một vòng quay quanh Mặt Trời nhanh như thế nào.
+
+- Khoảng cách từ Mặt Trời: 0,39 AU (57,9 triệu km)
+- Chu kì quĩ đạo: 87,96 ngày (ngày Trái Đất)
+- Chu kì tự quay: 58,7 ngày
+- Đường kính: 4.878km
+- Nhiệt độ bề mặt: 100-250K
+- Số mặt trăng: 0
+</size>]]
+		},
+		["GoToSceneName"]="mercury"
+	},
+	["venus"]={
+		["title"]="2.SAO KIM (Venus)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Mỗi năm sẽ có vài tháng bạn thấy Sao Mai mọc lên buổi sớm ở chân trời Đông và vài tháng khác lại thấy Sao Hôm lúc Mặt trời lặn ở chân trời Tây. Chúng rất đẹp và rất sáng, cả 2, thật ra đều là một hành tinh duy nhất – Sao Kim. Nếu không tính Mặt Trăng thì Sao Kim là thiên thể sáng nhất bầu trời đêm của chúng ta, vẻ đẹp của nó làm người thời xưa đặt tên nó là Venus, theo tiếng Hy Lạp là Aphrodite – nữ thần tình yêu và sắc đẹp.
+
+- Khoảng cách từ Mặt Trời : 0,723 AU (108,2 triệu km)
+- Chu kì quĩ đạo: 224,68 ngày
+- Chu kì tự quay: 243 ngày
+- Khối lượng : 4,87x1024 kg
+- Đường kính: 12.104 km
+- Nhiệt độ bề mặt: 726K
+- Số vệ tinh: không
+</size>]]
+		},
+		["GoToSceneName"]="venus"
+	},
 	["earth"]={
 		["title"]="3.TRÁI ĐẤT (Earth)",
 		[1]={
-			["Header"]="Tóm tắt	",
+			["Header"]="Tóm tắt",
 			["TextContent"]=[[<size=20>Trái đất là ngôi nhà của chúng ta, khi nhìn từ vũ trụ nó sẽ có màu xanh bởi có đại dương nước bao phủ 3/4 bề mặt Trái Đất. Trái đất cũng là nơi duy nhất có chứa sự sống được biết cho tới nay.
 
 - Khoảng cách từ Mặt Trời : 1 AU (149,6 triệu km)
@@ -44,5 +77,101 @@ Trong cuốn sách này, chúng ta sẽ tìm hiểu các thông tin chính về 
 </size>]]
 		},
 		["GoToSceneName"]="earth"
-	}
+	},
+	["mars"]={
+		["title"]="4.SAO HỎA (Mars)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Hành tinh có màu đỏ như lửa, trong khi người phương Đông gọi nó là “Hoả” thì ở phương Tây, nó được gắn cho cái tên Mars – tên của thần chiến tranh Ares trong thần thoại Hy Lạp - vị thần hiếu chiến mà mỗi nơi thần đi qua thì luôn để lại một màu đỏ của lửa và máu.
+
+- Khoảng cách từ Mặt Trời : 1,524 AU (227,9 triệu km)
+- Chu kì quĩ đạo: 686,98 ngày
+- Chu kì tự quay: 24,6 giờ
+- Đường kính: 6.787km
+- Nhiệt độ bề mặt: 150 – 310K
+- Số mặt trăng: 02 (Phobos và Deimos)
+
+Sao Hỏa cũng là hành tinh duy nhất trong số 7 hành tinh của Hệ Mặt Trời (không tính Trái Đất) mà con người có thể có cơ hội đặt chân lên trong tương lai gần (Sao Thủy quá nóng và không có khí quyển, Sao Kim quá độc lại còn nhóm ngoài là các hành tinh khí)
+</size>]]
+		},
+		["GoToSceneName"]="mars"
+	},
+	["jupiter"]={
+		["title"]="5.SAO MỘC (Jupiter)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Sao mộc là hành tinh lớn nhất hệ Mặt Trời, được đặt tên là Jupiter, theo tiếng Hy Lạp là Zeus – chúa tể của các vị thần. Sao Mộc cũng là hành tinh có nhiều mặt trăng nhất cũng như nhiều hiện tượng được quan tâm trong số 8 hành tinh của Hệ Mặt Trời.
+
+- Khoảng cách từ Mặt Trời : 5,203 AU (778,3 triệu km)
+- Chu kì quĩ đạo: 11,86 năm
+- Chu kì tự quay: 9,84 giờ
+- Đường kính: 142.796km (11E)
+- Nhiệt độ bề mặt: 120K
+- Số mặt trăng: 67
+
+Nhiều mặt trăng đã được đặt tên và nhiều vật thể nhỏ chuyển động xung quanh. Đặc biệt nhất là 4 mặt trăng lớn nhất do Galileo phát hiện bằng chiếc kính thiên văn đầu tiên của thế giới. Mặt trăng lớn nhất Ganimede cũng là mặt trăng lớn nhất Hệ Mặt Trời.
+</size>]]
+		},
+		["GoToSceneName"]="jupiter"
+	},
+	["saturn"]={
+		["title"]="6.SAO THỔ (Saturn)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Đây là hành tinh rất đẹp do vành đai (Saturn’s ring) đặc biệt của nó - vốn là tập hợp các tinh thể băng phản chiếu ánh sáng mặt trời rất mạnh. Sao Thổ được đặt tên là Saturn, theo tiếng Hy Lạp là Cronus – cha của thần Zeus, người bị thần Zeus lật đổ khỏi vị trí cai quản các vị thần.
+
+- Khoảng cách từ Mặt Trời : 9,536 AU (1.427 triệu km)
+- Chu kì quĩ đạo: 29,45 năm
+- Chu kì tự quay: 10,2 giờ
+- Đường kính: 120.660km
+- Nhiệt độ bề mặt: 88K
+- Số mặt trăng: 62 mặt trăng đã có tên và rất nhiều thiên thạch lớn nhỏ trong vành đai bao quanh.
+</size>]]
+		},
+		["GoToSceneName"]="saturn"
+	},
+	["uranus"]={
+		["title"]="7.SAO THIÊN VƯƠNG (Uranus)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Hành tinh này được phát hiện ra vào ngày 13/3/1781 bởi nhà thiên văn William Herschel. Nó được đặt tên theo tên của Uranos - thần bầu trời, cha của Cronus - ông nội của thần Zeus - từng bị chính Cronus giết chết để cướp ngôi.
+
+- Khoảng cách từ Mặt Trời : 19,18 AU (2.871 triệu km)
+- Chu kì quĩ đạo: 84,07 năm
+- Chu kì tự quay: 17,9 giờ
+- Đường kính: 51.118km
+- Nhiệt độ bề mặt: 59K
+- Số mặt trăng: 27
+</size>]]
+		},
+		["GoToSceneName"]="uranus"
+	},	
+	["neptune"]={
+		["title"]="8.SAO HẢI VƯƠNG (Neptune)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Được phát hiện ngày 23 tháng 9 năm 1846, hành tinh này được đặt tên là Neptune do nó có màu xanh như nước biển. Neptune theo tiếng Hy Lạp là Poseidon – anh trai của thần Zeus, vị thần cai quản tất cả các đại dương trên thế giới.
+
+- Khoảng cách từ Mặt Trời : 30,06 AU (4.497,1 triệu km)
+- Chu kì quĩ đạo: 164,81 năm
+- Chu kì tự quay: 19,1 giờ
+- Đường kính: 48.600km
+- Nhiệt độ bề mặt: 48K
+- Số mặt trăng: 14
+</size>]]
+		},
+		["GoToSceneName"]="neptune"
+	},	
+	["pluto"]={
+		["title"]="8.SAO DIÊM VƯƠNG (Pluto)",
+		[1]={
+			["Header"]="Tóm tắt",
+			["TextContent"]=[[<size=20>Trước đây Pluto được coi là hành tinh thứ 9, tuy nhiên sau khi tiêu chuẩn về hành tinh được thay đổi vào năm 2006 thì Pluto bị loại ra khỏi danh sách các hành tinh trong Thái dương hệ. Pluto hiện được đưa vào nhóm các "Hành tinh lùn" - Drawf Planet. Nhóm này hiện nay có 5 thành viên là Pluto, Ceres, Eris, Haumea và Makemake. Chúng được coi là trung gian giữa hành tinh và tiểu hành tinh.
+Pluto có quỹ đạo lệch hẳn với mặt phẳng quỹ đạo của các hành tinh khác.
+</size>]]
+		},
+		["GoToSceneName"]="pluto"
+	},
+	
+	
 }
