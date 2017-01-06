@@ -6,6 +6,7 @@ RichTextUi.textUI=nil;
 RichTextUi.currentTextIdx=1;
 RichTextUi.f_GoToSceneName=nil;
 RichTextUi.metaData=nil;
+RichTextUi.active=false;
 function RichTextUi.InstantiateUi(RichTextUi)
 	richtextui=luautils.Instantiate(RichTextUi)
 	luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
@@ -41,7 +42,7 @@ function RichTextUi.LoadTextText(metaData)
 		RichTextUi.f_GoToSceneName = getvar(flowchart, "GoToSceneName");
 	end
 	RichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
-
+	RichTextUi.active=true;
 end
 function RichTextUi.hideUi()
 	print ( "rex command hideUi " );
@@ -50,6 +51,7 @@ function RichTextUi.hideUi()
 		RichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
 	end
 	RichTextUi.mainCamera.OnHideUi();
+	RichTextUi.active=false;
 end
 function RichTextUi.ExplorerButtonClick()
 	luautils.Destroy(RichTextUi.textUI);
