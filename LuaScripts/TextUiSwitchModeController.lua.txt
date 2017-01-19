@@ -1,0 +1,41 @@
+if( LUA_READY== nil or LUA_READY == false) then
+	return;
+end
+if( DISPLAY_MODE ==nil) then
+
+end
+print("button bigger click DISPLAY_MODE="..DISPLAY_MODE);
+if( DISPLAY_MODE==DISPLAY_MODES.NONE ) then
+	if( RichTextUi!=nill) then
+		if( BigRichTextUi~=nil ) then
+			RichTextUi.currentTextIdx=BigRichTextUi.currentTextIdx;
+		end
+		RichTextUi.LoadTextText(metaData);
+		DISPLAY_MODE=DISPLAY_MODES.SMALL;
+	end
+elseif( DISPLAY_MODE==DISPLAY_MODES.SMALL ) then
+	RichTextUi.hideUi();
+	if( BigRichTextUi ==nil ) then -- we init BigRichTextUi 
+		print("init BigRichTextUi");
+		local bigrichtextui_pref=luautils.Instantiate2(bigtexUi_pref,lua);
+		-- i have to run script here because if it start in prefab, below code will error
+		luaScriptComponent=bigrichtextui_pref.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+		luaScriptComponent.OnExecute();
+		BigRichTextUi.currentTextIdx=RichTextUi.currentTextIdx;
+		BigRichTextUi.textUI=bigrichtextui_pref;
+		BigRichTextUi.displayText(metaData);
+	else -- we not init BigRichTextUi 
+		print("not init BigRichTextUi");
+		BigRichTextUi.showUi();
+		if(RichTextUi.currentTextIdx~=BigRichTextUi.currentTextIdx ) then
+			BigRichTextUi.currentTextIdx=RichTextUi.currentTextIdx;
+		end
+		BigRichTextUi.LoadTextText(metaData);
+	end
+
+
+	DISPLAY_MODE=DISPLAY_MODES.BIG;
+else
+		BigRichTextUi.hideUi();
+		DISPLAY_MODE=DISPLAY_MODES.NONE
+end	

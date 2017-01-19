@@ -1,4 +1,9 @@
-
+DISPLAY_MODES={
+	NONE=1;
+	SMALL=2;
+	BIG=3;
+}
+LUA_READY=false;
 a_animation[ "systemMoving"].time=math.random(0,500)
 if( store==nil or store.skipAnimation==nil or store.skipAnimation==false) then
 	store.skipAnimation=true;
@@ -6,8 +11,11 @@ if( store==nil or store.skipAnimation==nil or store.skipAnimation==false) then
 	wait(7)
 end
 richtextui=luautils.Instantiate2(richtextui_1,lua)
+-- i have to run script here because if it start in prefab, below code will error
 luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
 luaScriptComponent.OnExecute(); 
 metaData=metaDatas["solar"];
-RichTextUi.displayText(richtextui,metaData)
-
+RichTextUi.textUI=richtextui;
+RichTextUi.displayText(metaData)
+LUA_READY=true;
+DISPLAY_MODE=DISPLAY_MODES.SMALL;

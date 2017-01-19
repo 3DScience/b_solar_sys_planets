@@ -1,0 +1,104 @@
+-- ========================= exclusive BigRichTextUi ==================================
+print "BigRichTextUi runing ...."
+BigRichTextUi={}
+BigRichTextUi.currentFontSize=-1;
+-- ========================= end exclusive =============================
+BigRichTextUi.nameTitleTextComponent="Ui/titleBox/txt_title";
+BigRichTextUi.nameHeaderTextComponent="Ui/infomationBox/txtHeader";
+BigRichTextUi.nameContentTextComponent="Ui/infomationBox/ScroolRect/txt_info";
+BigRichTextUi.mainCamera=nil;
+BigRichTextUi.textUI=nil;
+BigRichTextUi.currentTextIdx=1;
+BigRichTextUi.f_GoToSceneName=nil;
+BigRichTextUi.metaData=nil;
+BigRichTextUi.active=false;
+function BigRichTextUi.InstantiateUi(BigRichTextUi)
+	BigRichTextUi=luautils.Instantiate(BigRichTextUi)
+	luaScriptComponent=BigRichTextUi.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+	luaScriptComponent.OnExecute(); 
+end
+function BigRichTextUi.displayText(metaData)
+	BigRichTextUi.metaData=metaData;
+	BigRichTextUi.LoadTextText(BigRichTextUi.metaData);
+end
+
+function BigRichTextUi.LoadTextText(metaData)
+	headerTextComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameHeaderTextComponent).GetComponent("Text");
+	headerTextComponent.text=metaData[BigRichTextUi.currentTextIdx]["Header"];
+	contentTextComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameContentTextComponent).GetComponent("Text");
+	contentTextComponent.text=metaData[BigRichTextUi.currentTextIdx]["TextContent"];;
+
+	BigRichTextUi.showUi();
+	-- force scroll to top
+	--type=luautils.getType("UnityEngine.UI.ScrollRect, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
+	--print( type)
+	wait(0.1);
+	scrollRectComponent=BigRichTextUi.textUI.transform.FindChild("Ui/infomationBox/ScroolRect").GetComponent("ScrollRect");
+	print (scrollRectComponent)
+	scrollRectComponent.normalizedPosition = luautils.CreateVecter2(0,1);
+	if( BigRichTextUi.f_GoToSceneName==nil) then
+		BigRichTextUi.f_GoToSceneName = getvar(flowchart, "GoToSceneName");
+	end
+	BigRichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
+	
+end
+function BigRichTextUi.hideUi()
+	print ( "rex command hideUi " );
+	BigRichTextUi.textUI.SetActive(false);
+	if (BigRichTextUi.mainCamera==nil) then
+		BigRichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
+	end
+	BigRichTextUi.mainCamera.OnHideUi();
+	BigRichTextUi.active=false;
+end
+function BigRichTextUi.showUi()
+	print ( "rex command showUi " );
+	BigRichTextUi.textUI.SetActive(true);
+	if (BigRichTextUi.mainCamera==nil) then
+		BigRichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
+	end
+	BigRichTextUi.mainCamera.OnShowUi();
+	BigRichTextUi.active=true;
+end
+function BigRichTextUi.ExplorerButtonClick()
+	luautils.Destroy(BigRichTextUi.textUI);
+	runblock(flowchart, "LoadScene")
+end
+function BigRichTextUi.NextText()
+	print("BigRichTextUi.NextText");
+	local nextIdx=BigRichTextUi.currentTextIdx+1;
+	local text=metaData[nextIdx]
+	if(text~=nil) then
+		BigRichTextUi.currentTextIdx=nextIdx;
+		BigRichTextUi.LoadTextText(BigRichTextUi.metaData);
+	end
+end
+function BigRichTextUi.PreText()
+	print("BigRichTextUi.NextText");
+	local nextIdx=BigRichTextUi.currentTextIdx-1;
+	local text=metaData[nextIdx]
+	if(text~=nil) then
+		BigRichTextUi.currentTextIdx=nextIdx;
+		BigRichTextUi.LoadTextText(BigRichTextUi.metaData);
+	end
+end
+-- ========================= exclusive BigRichTextUi ==================================
+function BigRichTextUi.zoomIn()
+		contentTextComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameContentTextComponent).GetComponent("Text");
+		if( BigRichTextUi.currentFontSize ==-1) then
+			BigRichTextUi.currentFontSize=contentTextComponent.fontSize;
+		end
+		BigRichTextUi.currentFontSize=BigRichTextUi.currentFontSize+1;
+		contentTextComponent.fontSize=BigRichTextUi.currentFontSize;
+end
+function BigRichTextUi.zoomOut()
+		contentTextComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameContentTextComponent).GetComponent("Text");
+		if( BigRichTextUi.currentFontSize ==-1) then
+			BigRichTextUi.currentFontSize=contentTextComponent.fontSize;
+		end
+		if( BigRichTextUi.currentFontSize < 5 ) then
+			return;
+		end
+		BigRichTextUi.currentFontSize=BigRichTextUi.currentFontSize-1;
+		contentTextComponent.fontSize=BigRichTextUi.currentFontSize;
+end

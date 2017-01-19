@@ -1,6 +1,9 @@
 
 print "RichTextUi runing ...."
 RichTextUi={}
+RichTextUi.nameTitleTextComponent="Ui/titleBox/txt_title";
+RichTextUi.nameHeaderTextComponent="Ui/infomationBox/txtHeader";
+RichTextUi.nameContentTextComponent="Ui/infomationBox/ScroolRect/txt_info";
 RichTextUi.mainCamera=nil;
 RichTextUi.textUI=nil;
 RichTextUi.currentTextIdx=1;
@@ -12,25 +15,21 @@ function RichTextUi.InstantiateUi(RichTextUi)
 	luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
 	luaScriptComponent.OnExecute(); 
 end
-function RichTextUi.displayText(textUI,metaData)
-	RichTextUi.textUI=textUI;
+function RichTextUi.displayText(metaData)
 	RichTextUi.metaData=metaData;
 	RichTextUi.LoadTextText(RichTextUi.metaData);
 end
 
 function RichTextUi.LoadTextText(metaData)
-	RichTextUi.textUI.SetActive(true);
-	TitleTextComponent=RichTextUi.textUI.transform.FindChild("Ui/titleBox/txt_title").GetComponent("Text");
+
+	TitleTextComponent=RichTextUi.textUI.transform.FindChild(RichTextUi.nameTitleTextComponent).GetComponent("Text");
 	TitleTextComponent.text=metaData["title"];
-	headerTextComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/txtHeader").GetComponent("Text");
+	headerTextComponent=RichTextUi.textUI.transform.FindChild(RichTextUi.nameHeaderTextComponent).GetComponent("Text");
 	headerTextComponent.text=metaData[RichTextUi.currentTextIdx]["Header"];
-	contentTextComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/ScroolRect/txt_info").GetComponent("Text");
+	contentTextComponent=RichTextUi.textUI.transform.FindChild(RichTextUi.nameContentTextComponent).GetComponent("Text");
 	contentTextComponent.text=metaData[RichTextUi.currentTextIdx]["TextContent"];;
 
-	if (RichTextUi.mainCamera==nil) then
-		RichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
-	end
-	RichTextUi.mainCamera.OnShowUi();
+	RichTextUi.showUi();
 	-- force scroll to top
 	--type=luautils.getType("UnityEngine.UI.ScrollRect, UnityEngine.UI, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null");
 	--print( type)
@@ -42,7 +41,7 @@ function RichTextUi.LoadTextText(metaData)
 		RichTextUi.f_GoToSceneName = getvar(flowchart, "GoToSceneName");
 	end
 	RichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
-	RichTextUi.active=true;
+	
 end
 function RichTextUi.hideUi()
 	print ( "rex command hideUi " );
@@ -52,6 +51,15 @@ function RichTextUi.hideUi()
 	end
 	RichTextUi.mainCamera.OnHideUi();
 	RichTextUi.active=false;
+end
+function RichTextUi.showUi()
+	print ( "rex command showUi " );
+	RichTextUi.textUI.SetActive(true);
+	if (RichTextUi.mainCamera==nil) then
+		RichTextUi.mainCamera=luautils.getMainCamera().GetComponent("CameraController_1");
+	end
+	RichTextUi.mainCamera.OnShowUi();
+	RichTextUi.active=true;
 end
 function RichTextUi.ExplorerButtonClick()
 	luautils.Destroy(RichTextUi.textUI);

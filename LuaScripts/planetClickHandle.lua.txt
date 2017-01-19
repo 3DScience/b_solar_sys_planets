@@ -1,0 +1,7 @@
+if( DISPLAY_MODE==DISPLAY_MODES.BIG ) then
+	BigRichTextUi.displayText(metaData);
+else
+	RichTextUi.displayText(metaData);
+	DISPLAY_MODE=DISPLAY_MODES.SMALL;
+end
+print("run file");

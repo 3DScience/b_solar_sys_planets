@@ -1,7 +1,17 @@
+DISPLAY_MODES={
+	NONE=1;
+	SMALL=2;
+	BIG=3;
+}
+
 -- i have to wait for other components load, its suck
 wait(0.2)
 richtextui=luautils.Instantiate2(richtextui_2,lua)
+-- i have to run script here because if it start in prefab, below code will error
 luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
 luaScriptComponent.OnExecute(); 
 metaData=metaDatas[metadataName]
-RichTextUi.displayText(richtextui,metaData)
+DISPLAY_MODE=DISPLAY_MODES.SMALL;
+RichTextUi.textUI=richtextui;
+RichTextUi.displayText(metaData)
+LUA_READY=true;
