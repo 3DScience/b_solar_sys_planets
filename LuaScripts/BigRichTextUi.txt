@@ -2,6 +2,8 @@
 print "BigRichTextUi runing ...."
 BigRichTextUi={}
 BigRichTextUi.currentFontSize=-1;
+BigRichTextUi.originFontSize=-1;
+BigRichTextUi.currenScaleFontSize=1;
 -- ========================= end exclusive =============================
 BigRichTextUi.nameTitleTextComponent="Ui/titleBox/txt_title";
 BigRichTextUi.nameHeaderTextComponent="Ui/infomationBox/txtHeader";
@@ -102,3 +104,29 @@ function BigRichTextUi.zoomOut()
 		BigRichTextUi.currentFontSize=BigRichTextUi.currentFontSize-1;
 		contentTextComponent.fontSize=BigRichTextUi.currentFontSize;
 end
+function BigRichTextUi.zoom()
+		contentTextComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameContentTextComponent).GetComponent("Text");
+		if( BigRichTextUi.originFontSize ==-1) then
+			BigRichTextUi.originFontSize=contentTextComponent.fontSize;
+		end
+		local scale=BigRichTextUi.currenScaleFontSize+1;
+
+		if(scale > 3) then
+			scale=1;
+		end
+		BigRichTextUi.currenScaleFontSize=scale;
+
+		if( BigRichTextUi.currenScaleFontSize ==1 ) then
+			--buttonText.text="X1";
+			contentTextComponent.fontSize=BigRichTextUi.originFontSize;
+		elseif( BigRichTextUi.currenScaleFontSize ==2 ) then
+			--buttonText.text="X2";
+			contentTextComponent.fontSize=BigRichTextUi.originFontSize* 1.4;
+		elseif ( BigRichTextUi.currenScaleFontSize ==3 )  then 
+			--buttonText.text="X3";
+			contentTextComponent.fontSize=BigRichTextUi.originFontSize* 1.8;
+		end
+
+end
+
+
