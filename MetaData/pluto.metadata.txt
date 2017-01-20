@@ -4,10 +4,10 @@ metaDatas={
 		["title"]="9.SAO DIÊM VƯƠNG",
 		[1]={
 			["Header"]="Giới thiệu",
-			["TextContent"]=[[<size=20>Sao Diêm Vương, cũng được định danh hình thức là 134340 Pluto, là hành tinh lùn nặng thứ hai đã được biết trong Hệ Mặt Trời (sau Eris) và là vật thể nặng thứ mười trực tiếp quay quanh Mặt Trời.
+			["TextContent"]=[[Sao Diêm Vương, cũng được định danh hình thức là 134340 Pluto, là hành tinh lùn nặng thứ hai đã được biết trong Hệ Mặt Trời (sau Eris) và là vật thể nặng thứ mười trực tiếp quay quanh Mặt Trời.
 Trước kia nó từng được xếp hạng là một hành tinh, Sao Diêm Vương hiện được coi là thành viên lớn nhất của một vùng riêng biệt được gọi là Vành đai Kuiper. Tương tự như các thành viên khác của vành đai này, nó chủ yếu gồm đá với băng và có kích thước khá nhỏ: xấp xỉ một phần năm khối lượng và một phần ba thể tích Mặt Trăng của Trái Đất. Sao Diêm Vương có quỹ đạo với độ lệch tâm lớn và rất nghiêng. Độ lệch tâm khiến nó có thể có khoảng cách từ 30 tới 49 AU từ Mặt Trời, nên thỉnh thoảng Sao Diêm Vương ở gần Mặt Trời hơn Sao Hải Vương. Sao Diêm Vương và vệ tinh lớn nhất của nó, Charon, thường được coi là một hệ đôi bởi khối tâm của các quỹ đạo của chúng không nằm trong bất kỳ một vật thể nào.
 Từ khi được phát hiện năm 1930 cho tới tận năm 2006, Sao Diêm Vương vẫn được tính là hành tinh thứ chín của Hệ Mặt Trời. Tuy nhiên, cuối thế kỷ 20 đầu thế kỷ 21, nhiều vật thể tương tự Sao Diêm Vương đã được phát hiện ở phía ngoài Hệ Mặt Trời, đáng chú ý nhất là vật thể đĩa phân tán Eris, có khối lượng lớn hơn Sao Diêm Vương 27%. Ngày 24 tháng 8 năm 2006 Liên đoàn Thiên văn Quốc tế đã lần đầu tiên định nghĩa "hành tinh". Định nghĩa này không bao gồm Sao Diêm Vương, nó bị Liên đoàn Thiên văn Quốc tế xếp loại lại như một thành viên của loại mới là các hành tinh lùn cùng với Eris và Ceres. Sau khi được tái xếp hạng, Sao Diêm Vương được thêm vào danh sách các tiểu hành tinh và được định danh bằng số 134340.
-</size>]]
+]]
 		}
 	}
 }

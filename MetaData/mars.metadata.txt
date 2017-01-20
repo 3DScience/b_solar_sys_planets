@@ -4,23 +4,23 @@ metaDatas={
 		["title"]="4.SAO HỎA",
 		[1]={
 			["Header"]="Giới thiệu",
-			["TextContent"]=[[<size=20>Sao Hỏa là hành tinh nổi tiếng nhất, không chỉ trong phim ảnh mà cả bởi những khám phá khoa học liên tục tập trung vào hành tinh này. Một trong số các nguyên nhân là bởi Sao Hỏa là hành tinh có triển vọng nhất trong việc đưa sự sống lên trên đó.
+			["TextContent"]=[[Sao Hỏa là hành tinh nổi tiếng nhất, không chỉ trong phim ảnh mà cả bởi những khám phá khoa học liên tục tập trung vào hành tinh này. Một trong số các nguyên nhân là bởi Sao Hỏa là hành tinh có triển vọng nhất trong việc đưa sự sống lên trên đó.
 Sao Hỏa còn được gọi với tên khác là "Hành tinh Đỏ", do sắt ôxít có mặt rất nhiều trên bề mặt hành tinh làm nên màu đỏ đặc trưng. Sao Hỏa là một hành tinh đất đá với một khí quyển mỏng, với những đặc điểm trên bề mặt có nét giống với cả các hố va chạm trên Mặt Trăng và các núi lửa, thung lũng, sa mạc và chỏm băng ở cực trên Trái Đất. Chu kỳ tự quay và sự tuần hoàn của các mùa trên Hỏa Tinh khá giống với của Trái Đất do sự nghiêng của trục quay tạo ra. Một ngày của Sao Hỏa dài hơn một ngày của Trái đất khoảng 40 phút.
-</size>]]
+]]
 		},
 		[2]={
 			["Header"]="Thám hiểm",
-			["TextContent"]=[[<size=20>Ngọn núi Olympus Mons trên Sao Hỏa là ngọn núi cao nhất trong Hệ Mặt Trời (27km), và hẻm núi Valles Marineris, hẻm núi dài và rộng nhất trong Thái Dương Hệ (dài 4.000 km và độ sâu khoảng 7 km). Lòng chảo Borealis bằng phẳng trên bán cầu bắc bao phủ tới 40% diện tích bề mặt hành tinh đỏ và có thể là một hố va chạm khổng lồ trong quá khứ.
+			["TextContent"]=[[Ngọn núi Olympus Mons trên Sao Hỏa là ngọn núi cao nhất trong Hệ Mặt Trời (27km), và hẻm núi Valles Marineris, hẻm núi dài và rộng nhất trong Thái Dương Hệ (dài 4.000 km và độ sâu khoảng 7 km). Lòng chảo Borealis bằng phẳng trên bán cầu bắc bao phủ tới 40% diện tích bề mặt hành tinh đỏ và có thể là một hố va chạm khổng lồ trong quá khứ.
 Dựa trên các nghiên cứu từ các cuộc thám hiểm Sao Hỏa, các nhà khoa học cho rằng đã từng có nước lỏng bao phủ trên diện rộng ở bề mặt của nó. Năm 2005, dữ liệu từ tín hiệu radar cho thấy sự có mặt của một lượng lớn nước đóng băng ở hai cực, và tại các vũng vĩ độ trung bình. Robot tự hành Spirit đã lấy được mẫu các hợp chất hóa học chứa phân tử nước vào tháng 3 năm 2007. Tàu đổ bộ Phoenix đã trực tiếp lấy được mẫu nước đóng băng trong lớp đất nông trên bề mặt vào ngày 31 tháng 7 năm 2008.
 Hiện nay có ba tàu quỹ đạo còn hoạt động đang bay quanh Sao Hỏa: Mars Odyssey, Mars Express, và Mars Reconnaissance Orbiter. Trên bề mặt nó có robot tự hành thám hiểm Sao Hỏa (Mars Exploration Rover) Opportunity còn hoạt động và cặp song sinh với nó robot tự hành Spirit đã ngừng hoạt động, cùng với đó là những tàu đổ bộ và robot tự hành trong quá khứ-cả thành công lẫn không thành công. Opportunity là robot nổi tiếng nhất, với thiết kế dự định hoạt động trong 90 ngày nhưng hiện nay (2016) vẫn tiếp tục các hoạt động nghiên cứu sau hơn 12 năm  đổ bộ lên Sao Hỏa.
-</size>]]
+]]
 		},
 		[3]={
 			["Header"]="Quan sát",
-			["TextContent"]=[[<size=20>Sao Hỏa có hai vệ tinh, Phobos và Deimos, chúng là các vệ tinh nhỏ và dị hình với khối lượng rất nhỏ nên không đủ lực hấp dẫn để tạo thành hình cầu. Đây có thể là các tiểu hành tinh bị Hỏa Tinh bắt được, tương tự như 5261 Eureka - một tiểu hành tinh Trojan của Hỏa Tinh.
+			["TextContent"]=[[Sao Hỏa có hai vệ tinh, Phobos và Deimos, chúng là các vệ tinh nhỏ và dị hình với khối lượng rất nhỏ nên không đủ lực hấp dẫn để tạo thành hình cầu. Đây có thể là các tiểu hành tinh bị Hỏa Tinh bắt được, tương tự như 5261 Eureka - một tiểu hành tinh Trojan của Hỏa Tinh.
 Sao Hỏa có thể dễ dàng nhìn từ Trái Đất bằng mắt thường. Cấp sao biểu kiến của nó đạt giá trị −3,0 chỉ đứng sau so với Sao Mộc, Sao Kim, Mặt Trăng, và Mặt Trời. Sao Hỏa nằm gần Trái Đất nhất trong vòng khoảng 60.000 năm qua là vào năm 2003 ở khoảng cách 55.758.006 km (0,372719 AU).Kỷ lục tiếp cận gần nhất năm 2003 gần hơn một chút so với một số lần tiếp cận gần nhất trong thời gian gần đây. Ví dụ, khoảng cách nhỏ nhất giữa hai hành tinh xảy ra vào ngày 22 tháng 8 năm 1924 là 0,37285 AU, và vào ngày 24 tháng 8 năm 2208 sẽ là 0,37279 AU.
 Trong năm 2003, và những năm sau, đã có một trò chơi khăm phát tán trên internet nói rằng năm 2003 Sao Hỏa sẽ nằm gần Trái Đất nhất trong hàng nghìn năm qua và nó sẽ hiện lên to như Mặt Trăng trên bầu trời.
-</size>]]
+]]
 		}
 	}
 }

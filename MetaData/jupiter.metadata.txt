@@ -4,23 +4,23 @@ metaDatas={
 		["title"]="5.SAO MỘC",
 		[1]={
 			["Header"]="Giới thiệu",
-			["TextContent"]=[[<size=20>Sao Mộc là hành tinh thứ năm và lớn nhất trong Hệ Mặt Trời. Nó là hành tinh khí khổng lồ với khối lượng bằng một phần nghìn của Mặt Trời nhưng bằng hai lần rưỡi tổng khối lượng của tất cả các hành tinh khác trong Hệ Mặt Trời cộng lại. Do khối lượng cực lớn của nó, lực hấp dẫn sẽ giúp tăng tốc các tàu thám hiểm không gian nên nhiều vệ tinh được tính toán quỹ đạo để bay ngang qua Sao Mộc trong hành trình của mình.
+			["TextContent"]=[[Sao Mộc là hành tinh thứ năm và lớn nhất trong Hệ Mặt Trời. Nó là hành tinh khí khổng lồ với khối lượng bằng một phần nghìn của Mặt Trời nhưng bằng hai lần rưỡi tổng khối lượng của tất cả các hành tinh khác trong Hệ Mặt Trời cộng lại. Do khối lượng cực lớn của nó, lực hấp dẫn sẽ giúp tăng tốc các tàu thám hiểm không gian nên nhiều vệ tinh được tính toán quỹ đạo để bay ngang qua Sao Mộc trong hành trình của mình.
 Đường kính của Sao Mộc xấp xỉ 11 lần Trái Đất, và trên bề mặt của nó nổi tiếng nhất là "Vết đỏ lớn" - thực chất là một cơn bão khổng lồ. Cơn bão này có kích thước lớn hơn cả Trái Đất, và đã tồn tại trên 400 năm từ khi các nhà khoa học bắt đầu nghiên cứu Sao Mộc bằng kính thiên văn.
 Sao Mộc có 67 vệ tinh tự nhiên. Trong số này có 51 vệ tinh có đường kính nhỏ hơn 10 kilômét và chỉ được phát hiện từ 1975. Bốn vệ tinh lớn nhất, gọi là các vệ tinh "Galilei" là Io, Europa, Ganymede và Callisto.
-</size>]]
+]]
 		},
 		[2]={
 			["Header"]="Va chạm",
-			["TextContent"]=[[<size=20>
+			["TextContent"]=[[
 Các nhà thiên văn gọi Sao Mộc là cỗ máy hút bụi của Hệ Mặt Trời, bởi vì lực hấp dẫn mạnh và vị trí của nó gần nhóm bốn hành tinh phía trong. Hành tinh khổng lồ này được cho là một lá chắn bảo vệ các hành tinh phía trong khỏi những trận bắn phá của thiên thạch. Tuy nhiên những mô phỏng máy tính gần đây lại cho thấy Sao Mộc không làm giảm số lượng sao chổi đi vào phía các hành tinh bên trong, do hấp dẫn của nó gây nhiễu loạn quỹ đạo các sao chổi đi vào trong xấp xỉ bằng số sao chổi hút về phía nó. Vấn đề này vẫn còn gây ra nhiều tranh luận giữa các nhà thiên văn học, khi một số tin rằng Sao Mộc đã hút các sao chổi từ vành đai Kuiper về phía quỹ đạo Trái Đất trong khi một số khác nghĩ rằng hành tinh này có vai trò bảo vệ Trái Đất khỏi những thiên thạch từ đám mây Oort.
-</size>]]
+]]
 		},
 		[3]={
 			["Header"]="Tiến bộ khoa học",
-			["TextContent"]=[[<size=20>
+			["TextContent"]=[[
 Nhờ nghiên cứu Sao Mộc và các Mặt trăng của nó, các nhà khoa học thuộc thế kỷ 17 đã có nhiều phát hiện quan trọng. Khi nhà bác học Galileo quan sát thấy các Mặt trăng của Sao Mộc bay quanh nó, ông thấy rằng điều đó chứng tỏ có những vật thể KHÔNG bay quanh Trái Đất và là bằng chứng ủng hộ thuyết nhật tâm của Copernicus. Hoặc chu kỳ quay của Mặt trăng IO thay đổi khi Sao Mộc ở cùng phía hoặc khác phía với Trái Đất so với Mặt trời đã đưa ra kết luận vận tốc ánh sáng không phải là tức thời mà có giới hạn. Các nhà khoa học cũng đã ước lượng được vận tốc ánh sáng thông qua độ lệch thời gian này.
 Trong các vệ tinh Galilei của Sao Mộc, các nhà khoa học cho rằng vệ tinh Europa có các đại dương bên dưới bề mặt băng của nó, và rất có thể có sự sống ở dạng sơ khai trên đó. Vì vậy, khi các tàu thám hiểm Sao Mộc kết thúc nhiệm vụ đều được cho rơi vào Sao Mộc để phá hủy, tránh khả năng rơi vào vệ tinh Europa và mang theo các vi khuẩn từ Trái Đất.
-</size>]]
+]]
 		}
 	}
 }

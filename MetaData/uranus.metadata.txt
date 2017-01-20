@@ -4,10 +4,10 @@ metaDatas={
 		["title"]="7.SAO THIÊN VƯƠNG",
 		[1]={
 			["Header"]="Giới thiệu",
-			["TextContent"]=[[<size=20>Sao Thiên Vương là hành tinh thứ bảy tính từ Mặt Trời, là hành tinh có bán kính lớn thứ ba và có khối lượng lớn thứ tư trong hệ. Sao Thiên Vương có thành phần tương tự như Sao Hải Vương. Hành tinh này có bầu khí quyển lạnh nhất trong số các hành tinh trong Hệ Mặt Trời, với nhiệt độ cực tiểu bằng 49 K (−224 °C).
+			["TextContent"]=[[Sao Thiên Vương là hành tinh thứ bảy tính từ Mặt Trời, là hành tinh có bán kính lớn thứ ba và có khối lượng lớn thứ tư trong hệ. Sao Thiên Vương có thành phần tương tự như Sao Hải Vương. Hành tinh này có bầu khí quyển lạnh nhất trong số các hành tinh trong Hệ Mặt Trời, với nhiệt độ cực tiểu bằng 49 K (−224 °C).
 Giống như những hành tinh khí khổng lồ khác, Sao Thiên Vương có một hệ thống vành đai, từ quyển, và rất nhiều vệ tinh tự nhiên. Hệ thống Sao Thiên Vương có cấu hình độc nhất bởi vì trục tự quay của hành tinh bị nghiêng rất lớn, gần như song song với mặt phẳng quỹ đạo của hành tinh. Do vậy cực bắc và cực nam của hành tinh này gần như tại vị trí xích đạo so với những hành tinh khác. Năm 1986, những ảnh chụp của tàu không gian Voyager 2 cho thấy Sao Thiên Vương hiện lên với một màu gần như đồng nhất mà không có các dải mây hay cơn bão như những hành tinh khí khổng lồ khác. Tốc độ gió trên Sao Thiên Vương đạt tới 250 mét trên giây (900 km/h).
 Sao Thiên Vương cũng là hành tinh đầu tiên được phát hiện nhờ trợ giúp của kính thiên văn, bởi nó rất mờ và di chuyển rất chậm, nên các nhà khoa học cổ đại quan sát bằng mắt thường đã nghĩ đó là một ngôi sao.
-</size>]]
+]]
 		}
 	}
 }
