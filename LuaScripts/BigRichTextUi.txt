@@ -8,6 +8,7 @@ BigRichTextUi.currenScaleFontSize=1;
 BigRichTextUi.nameTitleTextComponent="Ui/titleBox/txt_title";
 BigRichTextUi.nameHeaderTextComponent="Ui/infomationBox/txtHeader";
 BigRichTextUi.nameContentTextComponent="Ui/infomationBox/ScroolRect/txt_info";
+BigRichTextUi.nameScaleTextSizeComponent="Ui/buttonLayout/zoomButton/zoom/txtScaleButton";
 BigRichTextUi.mainCamera=nil;
 BigRichTextUi.textUI=nil;
 BigRichTextUi.currentTextIdx=1;
@@ -116,14 +117,16 @@ function BigRichTextUi.zoom()
 		end
 		BigRichTextUi.currenScaleFontSize=scale;
 
+		scaleTextSizeComponent=BigRichTextUi.textUI.transform.FindChild(BigRichTextUi.nameScaleTextSizeComponent).GetComponent("Text");
+
 		if( BigRichTextUi.currenScaleFontSize ==1 ) then
-			--buttonText.text="X1";
+			scaleTextSizeComponent.text="X1";
 			contentTextComponent.fontSize=BigRichTextUi.originFontSize;
 		elseif( BigRichTextUi.currenScaleFontSize ==2 ) then
-			--buttonText.text="X2";
+			scaleTextSizeComponent.text="X2";
 			contentTextComponent.fontSize=BigRichTextUi.originFontSize* 1.4;
 		elseif ( BigRichTextUi.currenScaleFontSize ==3 )  then 
-			--buttonText.text="X3";
+			scaleTextSizeComponent.text="X3";
 			contentTextComponent.fontSize=BigRichTextUi.originFontSize* 1.8;
 		end
 
