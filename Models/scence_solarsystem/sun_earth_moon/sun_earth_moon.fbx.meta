@@ -1,0 +1,633 @@
+fileFormatVersion: 2
+guid: c83b3e0d2b6039d42a591544a168ac90
+timeCreated: 1486451966
+licenseType: Free
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: earth
+    100002: earth 1
+    100004: earth 2
+    100006: earth 3
+    100008: earth 4
+    100010: earth 5
+    100012: earth 6
+    100014: earth 7
+    100016: earth 8
+    100018: earth 9
+    100020: Earth_Moon
+    100022: Earth_Moon_1
+    100024: Earth_Moon_2
+    100026: Earth_Moon_3
+    100028: Earth_Moon_4
+    100030: earth_orbit
+    100032: moon
+    100034: moon 1
+    100036: moon 2
+    100038: moon 3
+    100040: moon 4
+    100042: nurbsCircle2
+    100044: nurbsCircle2 1
+    100046: nurbsCircle2 2
+    100048: nurbsCircle2 3
+    100050: nurbsCircle2 4
+    100052: nurbsCircle3
+    100054: Sun
+    100056: sun
+    100058: sun_atmosphere
+    100060: //RootNode
+    400000: earth
+    400002: earth 1
+    400004: earth 2
+    400006: earth 3
+    400008: earth 4
+    400010: earth 5
+    400012: earth 6
+    400014: earth 7
+    400016: earth 8
+    400018: earth 9
+    400020: Earth_Moon
+    400022: Earth_Moon_1
+    400024: Earth_Moon_2
+    400026: Earth_Moon_3
+    400028: Earth_Moon_4
+    400030: earth_orbit
+    400032: moon
+    400034: moon 1
+    400036: moon 2
+    400038: moon 3
+    400040: moon 4
+    400042: nurbsCircle2
+    400044: nurbsCircle2 1
+    400046: nurbsCircle2 2
+    400048: nurbsCircle2 3
+    400050: nurbsCircle2 4
+    400052: nurbsCircle3
+    400054: Sun
+    400056: sun
+    400058: sun_atmosphere
+    400060: //RootNode
+    2300000: earth 5
+    2300002: earth 6
+    2300004: earth 7
+    2300006: earth 8
+    2300008: earth 9
+    2300010: earth_orbit
+    2300012: moon
+    2300014: moon 1
+    2300016: moon 2
+    2300018: moon 3
+    2300020: moon 4
+    2300022: sun
+    2300024: sun_atmosphere
+    3300000: earth 5
+    3300002: earth 6
+    3300004: earth 7
+    3300006: earth 8
+    3300008: earth 9
+    3300010: earth_orbit
+    3300012: moon
+    3300014: moon 1
+    3300016: moon 2
+    3300018: moon 3
+    3300020: moon 4
+    3300022: sun
+    3300024: sun_atmosphere
+    4300000: sun_atmosphere
+    4300002: sun
+    4300004: moon
+    4300006: earth
+    4300008: earth_orbit
+    4300010: moon
+    4300012: earth
+    4300014: moon
+    4300016: earth
+    4300018: moon
+    4300020: earth
+    4300022: moon
+    4300024: earth
+    7400000: state1
+    7400002: state2
+    7400004: state3
+    7400006: state4
+    7400008: static
+    9500000: //RootNode
+    11100000: //RootNode
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: state1
+      takeName: Take 001
+      firstFrame: 1
+      lastFrame: 90
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Earth_Moon
+        weight: 1
+      - path: Earth_Moon/earth
+        weight: 1
+      - path: Earth_Moon/earth/earth 5
+        weight: 1
+      - path: Earth_Moon/earth/nurbsCircle2
+        weight: 1
+      - path: Earth_Moon/moon
+        weight: 1
+      - path: Earth_Moon_1
+        weight: 1
+      - path: Earth_Moon_1/earth 1
+        weight: 1
+      - path: Earth_Moon_1/earth 1/earth 6
+        weight: 1
+      - path: Earth_Moon_1/earth 1/nurbsCircle2 1
+        weight: 1
+      - path: Earth_Moon_1/moon 1
+        weight: 1
+      - path: Earth_Moon_2
+        weight: 1
+      - path: Earth_Moon_2/earth 2
+        weight: 1
+      - path: Earth_Moon_2/earth 2/earth 7
+        weight: 1
+      - path: Earth_Moon_2/earth 2/nurbsCircle2 2
+        weight: 1
+      - path: Earth_Moon_2/moon 2
+        weight: 1
+      - path: Earth_Moon_3
+        weight: 1
+      - path: Earth_Moon_3/earth 3
+        weight: 1
+      - path: Earth_Moon_3/earth 3/earth 8
+        weight: 1
+      - path: Earth_Moon_3/earth 3/nurbsCircle2 3
+        weight: 1
+      - path: Earth_Moon_3/moon 3
+        weight: 1
+      - path: Earth_Moon_4
+        weight: 1
+      - path: Earth_Moon_4/earth 4
+        weight: 1
+      - path: Earth_Moon_4/earth 4/earth 9
+        weight: 1
+      - path: Earth_Moon_4/earth 4/nurbsCircle2 4
+        weight: 1
+      - path: Earth_Moon_4/moon 4
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun/sun
+        weight: 1
+      - path: Sun/sun_atmosphere
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: state2
+      takeName: Take 001
+      firstFrame: 91
+      lastFrame: 180
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Earth_Moon
+        weight: 1
+      - path: Earth_Moon/earth
+        weight: 1
+      - path: Earth_Moon/earth/earth 5
+        weight: 1
+      - path: Earth_Moon/earth/nurbsCircle2
+        weight: 1
+      - path: Earth_Moon/moon
+        weight: 1
+      - path: Earth_Moon_1
+        weight: 1
+      - path: Earth_Moon_1/earth 1
+        weight: 1
+      - path: Earth_Moon_1/earth 1/earth 6
+        weight: 1
+      - path: Earth_Moon_1/earth 1/nurbsCircle2 1
+        weight: 1
+      - path: Earth_Moon_1/moon 1
+        weight: 1
+      - path: Earth_Moon_2
+        weight: 1
+      - path: Earth_Moon_2/earth 2
+        weight: 1
+      - path: Earth_Moon_2/earth 2/earth 7
+        weight: 1
+      - path: Earth_Moon_2/earth 2/nurbsCircle2 2
+        weight: 1
+      - path: Earth_Moon_2/moon 2
+        weight: 1
+      - path: Earth_Moon_3
+        weight: 1
+      - path: Earth_Moon_3/earth 3
+        weight: 1
+      - path: Earth_Moon_3/earth 3/earth 8
+        weight: 1
+      - path: Earth_Moon_3/earth 3/nurbsCircle2 3
+        weight: 1
+      - path: Earth_Moon_3/moon 3
+        weight: 1
+      - path: Earth_Moon_4
+        weight: 1
+      - path: Earth_Moon_4/earth 4
+        weight: 1
+      - path: Earth_Moon_4/earth 4/earth 9
+        weight: 1
+      - path: Earth_Moon_4/earth 4/nurbsCircle2 4
+        weight: 1
+      - path: Earth_Moon_4/moon 4
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun/sun
+        weight: 1
+      - path: Sun/sun_atmosphere
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: state3
+      takeName: Take 001
+      firstFrame: 181
+      lastFrame: 270
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Earth_Moon
+        weight: 1
+      - path: Earth_Moon/earth
+        weight: 1
+      - path: Earth_Moon/earth/earth 5
+        weight: 1
+      - path: Earth_Moon/earth/nurbsCircle2
+        weight: 1
+      - path: Earth_Moon/moon
+        weight: 1
+      - path: Earth_Moon_1
+        weight: 1
+      - path: Earth_Moon_1/earth 1
+        weight: 1
+      - path: Earth_Moon_1/earth 1/earth 6
+        weight: 1
+      - path: Earth_Moon_1/earth 1/nurbsCircle2 1
+        weight: 1
+      - path: Earth_Moon_1/moon 1
+        weight: 1
+      - path: Earth_Moon_2
+        weight: 1
+      - path: Earth_Moon_2/earth 2
+        weight: 1
+      - path: Earth_Moon_2/earth 2/earth 7
+        weight: 1
+      - path: Earth_Moon_2/earth 2/nurbsCircle2 2
+        weight: 1
+      - path: Earth_Moon_2/moon 2
+        weight: 1
+      - path: Earth_Moon_3
+        weight: 1
+      - path: Earth_Moon_3/earth 3
+        weight: 1
+      - path: Earth_Moon_3/earth 3/earth 8
+        weight: 1
+      - path: Earth_Moon_3/earth 3/nurbsCircle2 3
+        weight: 1
+      - path: Earth_Moon_3/moon 3
+        weight: 1
+      - path: Earth_Moon_4
+        weight: 1
+      - path: Earth_Moon_4/earth 4
+        weight: 1
+      - path: Earth_Moon_4/earth 4/earth 9
+        weight: 1
+      - path: Earth_Moon_4/earth 4/nurbsCircle2 4
+        weight: 1
+      - path: Earth_Moon_4/moon 4
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun/sun
+        weight: 1
+      - path: Sun/sun_atmosphere
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: state4
+      takeName: Take 001
+      firstFrame: 271
+      lastFrame: 360
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Earth_Moon
+        weight: 1
+      - path: Earth_Moon/earth
+        weight: 1
+      - path: Earth_Moon/earth/earth 5
+        weight: 1
+      - path: Earth_Moon/earth/nurbsCircle2
+        weight: 1
+      - path: Earth_Moon/moon
+        weight: 1
+      - path: Earth_Moon_1
+        weight: 1
+      - path: Earth_Moon_1/earth 1
+        weight: 1
+      - path: Earth_Moon_1/earth 1/earth 6
+        weight: 1
+      - path: Earth_Moon_1/earth 1/nurbsCircle2 1
+        weight: 1
+      - path: Earth_Moon_1/moon 1
+        weight: 1
+      - path: Earth_Moon_2
+        weight: 1
+      - path: Earth_Moon_2/earth 2
+        weight: 1
+      - path: Earth_Moon_2/earth 2/earth 7
+        weight: 1
+      - path: Earth_Moon_2/earth 2/nurbsCircle2 2
+        weight: 1
+      - path: Earth_Moon_2/moon 2
+        weight: 1
+      - path: Earth_Moon_3
+        weight: 1
+      - path: Earth_Moon_3/earth 3
+        weight: 1
+      - path: Earth_Moon_3/earth 3/earth 8
+        weight: 1
+      - path: Earth_Moon_3/earth 3/nurbsCircle2 3
+        weight: 1
+      - path: Earth_Moon_3/moon 3
+        weight: 1
+      - path: Earth_Moon_4
+        weight: 1
+      - path: Earth_Moon_4/earth 4
+        weight: 1
+      - path: Earth_Moon_4/earth 4/earth 9
+        weight: 1
+      - path: Earth_Moon_4/earth 4/nurbsCircle2 4
+        weight: 1
+      - path: Earth_Moon_4/moon 4
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun/sun
+        weight: 1
+      - path: Sun/sun_atmosphere
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    - serializedVersion: 16
+      name: static
+      takeName: Take 001
+      firstFrame: 361
+      lastFrame: 719
+      wrapMode: 2
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Earth_Moon
+        weight: 1
+      - path: Earth_Moon/earth
+        weight: 1
+      - path: Earth_Moon/earth/earth 5
+        weight: 1
+      - path: Earth_Moon/earth/nurbsCircle2
+        weight: 1
+      - path: Earth_Moon/moon
+        weight: 1
+      - path: Earth_Moon_1
+        weight: 1
+      - path: Earth_Moon_1/earth 1
+        weight: 1
+      - path: Earth_Moon_1/earth 1/earth 6
+        weight: 1
+      - path: Earth_Moon_1/earth 1/nurbsCircle2 1
+        weight: 1
+      - path: Earth_Moon_1/moon 1
+        weight: 1
+      - path: Earth_Moon_2
+        weight: 1
+      - path: Earth_Moon_2/earth 2
+        weight: 1
+      - path: Earth_Moon_2/earth 2/earth 7
+        weight: 1
+      - path: Earth_Moon_2/earth 2/nurbsCircle2 2
+        weight: 1
+      - path: Earth_Moon_2/moon 2
+        weight: 1
+      - path: Earth_Moon_3
+        weight: 1
+      - path: Earth_Moon_3/earth 3
+        weight: 1
+      - path: Earth_Moon_3/earth 3/earth 8
+        weight: 1
+      - path: Earth_Moon_3/earth 3/nurbsCircle2 3
+        weight: 1
+      - path: Earth_Moon_3/moon 3
+        weight: 1
+      - path: Earth_Moon_4
+        weight: 1
+      - path: Earth_Moon_4/earth 4
+        weight: 1
+      - path: Earth_Moon_4/earth 4/earth 9
+        weight: 1
+      - path: Earth_Moon_4/earth 4/nurbsCircle2 4
+        weight: 1
+      - path: Earth_Moon_4/moon 4
+        weight: 1
+      - path: earth_orbit
+        weight: 1
+      - path: nurbsCircle3
+        weight: 1
+      - path: Sun
+        weight: 1
+      - path: Sun/sun
+        weight: 1
+      - path: Sun/sun_atmosphere
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 0
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 1
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {instanceID: 0}
+  animationType: 1
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
