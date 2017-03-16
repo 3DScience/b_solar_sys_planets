@@ -37,10 +37,12 @@ function RichTextUi.LoadTextText(metaData)
 	scrollRectComponent=RichTextUi.textUI.transform.FindChild("Ui/infomationBox/ScroolRect").GetComponent("ScrollRect");
 	print (scrollRectComponent)
 	scrollRectComponent.normalizedPosition = luautils.CreateVecter2(0,1);
-	if( RichTextUi.f_GoToSceneName==nil) then
+	if( RichTextUi.f_GoToSceneName==nil and flowchart~=nil ) then
 		RichTextUi.f_GoToSceneName = getvar(flowchart, "GoToSceneName");
 	end
-	RichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
+	if( RichTextUi.f_GoToSceneName ~= nil ) then
+		RichTextUi.f_GoToSceneName.value=metaData["GoToSceneName"];
+	end
 	
 end
 function RichTextUi.hideUi()
@@ -63,7 +65,9 @@ function RichTextUi.showUi()
 end
 function RichTextUi.ExplorerButtonClick()
 	luautils.Destroy(RichTextUi.textUI);
-	runblock(flowchart, "LoadScene")
+	if( flowchart ~=nil) then
+		runblock(flowchart, "LoadScene")
+	end
 end
 function RichTextUi.NextText()
 	print("RichTextUi.NextText");

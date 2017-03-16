@@ -10,7 +10,7 @@ if( DISPLAY_MODE==DISPLAY_MODES.NONE ) then
 		if( BigRichTextUi~=nil ) then
 			RichTextUi.currentTextIdx=BigRichTextUi.currentTextIdx;
 		end
-		RichTextUi.LoadTextText(metaData);
+		RichTextUi.displayText(metaData);
 		DISPLAY_MODE=DISPLAY_MODES.SMALL;
 	end
 elseif( DISPLAY_MODE==DISPLAY_MODES.SMALL ) then

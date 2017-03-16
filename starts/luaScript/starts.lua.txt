@@ -1,0 +1,18 @@
+DISPLAY_MODES={
+	NONE=1;
+	SMALL=2;
+	BIG=3;
+}
+wait(1);
+-- init textUi prefab:
+local richtextui=luautils.Instantiate2(richtextui_2,lua)
+-- find luascript component and run it:
+luaScriptComponent=richtextui.GetComponentsInChildren(luautils.getType("Fungus.LuaScript"))[1];
+luaScriptComponent.OnExecute(); 
+RichTextUi.textUI=richtextui;
+richtextui.setActive(false);
+-- display text
+metaData=metaDatas[metadataName];
+--RichTextUi.displayText(metaData);
+DISPLAY_MODE=DISPLAY_MODES.NONE;
+LUA_READY=true;
