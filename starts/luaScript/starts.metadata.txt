@@ -1,25 +1,211 @@
 
 metaDatas={
 	["sun"]={
-		["title"]="this is our sun",
+		["title"]="Sun",
 		[1]={
-			["Header"]="Giới thiệu",
-			["TextContent"]=[[Trong dải Ngân Hà có hàng trăm tỷ ngôi sao và Mặt Trời là một ngôi sao trong số đó, nằm ở gần ngoài rìa của dải Ngân Hà. Mặt Trời quay quanh trung tâm của Ngân Hà ở khoảng cách xấp xỉ 24.000–26.000 năm ánh sáng từ trung tâm Ngân Hà, di chuyển theo hướng chùm sao Cygnus và hoàn thành một vòng trong khoảng 225–250 triệu năm (một năm Ngân hà). Tốc độ trên quỹ đạo của nó vào khoảng 250km/s. Mặt Trời sáng hơn 85% các ngôi sao trong Ngân Hà với đa số là các sao lùn đỏ.
-Mặt trời là trung tâm của hệ Hệ Mặt Trời, chiếm khoảng 99,86% khối lượng của Hệ Mặt Trời. Khoảng cách trung bình giữa Mặt Trời và Trái Đất xấp xỉ 149,6 triệu kilômét (1 Đơn vị thiên văn AU) nên ánh sáng Mặt Trời cần 8 phút 19 giây mới đến được Trái Đất. Mặt trời bức xạ năng lượng từ phản ứng tổng hợp hạt nhân của hạt nhân hydro thành heli khiến cho khối lượng của mặt trời liên tục giảm xuống. Năng lượng Mặt Trời ở dạng ánh sáng hỗ trợ cho hầu hết sự sống trên Trái Đất thông qua quá trình quang hợp, và điều khiển khí hậu cũng như thời tiết trên Trái Đất. Nhiều nền văn minh cổ xưa đã biết điều này và thờ thần Mặt trời như là một vị thần của sự sống.
-]]
-		},
-		[2]={
-			["Header"]="Sự hình thành",
-			["TextContent"]=[[Mặt Trời được hình thành cách đây khoảng 4,6 tỉ năm và đã tồn tai được một nửa vòng đời của nó. Do các phản ứng tổng hợp hạt nhân trong lõi của nó chuyển hydro thành heli, mỗi giây có hơn 4 triệu tấn vật chất trong lõi của Mặt Trời được chuyển thành năng lượng, tạo ra neutrino và các dạng bức xạ năng lượng Mặt Trời. Với tốc độ này cho đến nay, Mặt Trời đã chuyển đổi khoảng 100 lần khối lượng vật chất Trái Đất thành năng lượng. Mặt Trời sẽ mất tổng cộng khoảng 10 tỷ năm để kết thúc sự tồn tại của nó trước khi trở thành sao lùn trắng.
-]]
-		},
-		[3]={
-			["Header"]="Kết thúc",
-			["TextContent"]=[[Kết quả của phản ứng tổng hợp hạt nhân từ hydro là các nguyên tử heli được hình thành trong lõi của Mặt Trời, độ sáng của ngôi sao này đang từ từ tăng lên. Độ sáng của Mặt Trời sẽ tăng 10% trong 1,1 tỷ năm tới, 40% sau 3,5 tỷ năm.
-Mặt Trời không có khối lượng đủ lớn để kết thúc vòng đời bằng một vụ nổ tung như siêu tân tinh. Ngược lại, trong vòng 4-5 tỷ năm tới nó sẽ đi tới trạng thái sao khổng lồ đỏ của mình, diễn ra khi nguồn hiđrô trong lõi cạn kiệt. Sau đó nó bắt đầu phun trào hêli và nhiệt độ phần lõi sẽ tăng lên đến 10 triệu K và sẽ tạo ra carbon để trở thành gần như là sao khổng lồ. Các phản ứng nhiệt hạch sẽ sử dụng heli làm nguyên liệu tổng hợp nên các nguyên tố nặng hơn heli, làm cho lớp ngoài cùng của Mặt Trời sẽ giãn nở, đạt đến vị trí bên ngoài quỹ đạo Trái Đất hiện tại, gấp 250 lần bán kính hiện tại của Mặt Trời. Tuy nhiên, theo thời gian, khi đạt tới gần một sao khổng lồ đỏ, Mặt Trời sẽ mất đi khoảng 30% khối lượng hiện tại do gió sao khiến lực hút lên các hành tinh giảm đi và quỹ đạo của các hành tinh sẽ dần chuyển động ra xa. Nếu như thế sẽ làm quỹ đạo Trái Đất dịch ra xa hơn về phía bên ngoài, ngăn không cho nó bị nhấn chìm, nhưng các nghiên cứu mới cho thấy rằng Trái Đất sẽ bị Mặt Trời "nuốt chửng" do các tương tác thủy triều.
-Sau giai đoạn đỏ khổng lồ, các xung nhiệt khổng lồ sẽ làm cho Mặt Trời phun ra các lớp bên ngoài của nó để tạo ra tinh vân. Mặt Trời sau đó sẽ trở thành sao lùn trắng, nguội dần đi vĩnh viễn. Kịch bản tiến hóa sao này là rất điển hình đối với những sao có khối lượng thấp đến trung bình.
-]]
-		},
-		["GoToSceneName"]="sun"
-	}
+			["Header"]="Introduction",
+			["TextContent"]=[[The Sun is the star at the center of the Solar System. It is almost perfectly spherical and consists of hot plasma interwoven with magnetic fields. It has a diameter of about 1,392,684 km, about 109 times that of Earth, and its mass (about 2×1030 kilograms, 330,000 times that of Earth) accounts for about 99.86% of the total mass of the Solar System. Chemically, about three quarters of the Sun's mass consists of hydrogen, while the rest is mostly helium. The remainder (1.69%, which nonetheless equals 5,628 times the mass of Earth) consists of heavier elements, including oxygen, carbon, neon and iron, among others.
+			]]
+		}
+	},
+	["Luyten's Star"]={
+		["title"]="Luyten's Star",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Luyten's Star (GJ 273) is a red dwarf star in the constellation Canis Minor. It is located at a distance of around 12.36 light-years (3.79 parsecs) and has a visual magnitude of 9.9, making it too faint to be viewed with the unaided eye. It is named after Willem Jacob Luyten, who, in collaboration with Edwin G. Ebbighausen, first determined its high proper motion in 1935.
+This star is approximately a quarter the mass of the Sun and has 35% of the Sun's radius. Luyten's Star is at the maximum mass at which a red dwarf star can be fully convective. That is, most if not all of the star forms an extended convection zone. It has a stellar classification of M3.5V, with the V luminosity class indicating this is a main sequence star that is generating energy through the thermonuclear fusion of hydrogen at its core. The projected rotation rate of this star is too low to be measured, but is no greater than 1 km/s. The effective temperature of the star's outer envelope is a relatively cool 3,150 K, giving the star the characteristic red-orange hue of an M-type star.
+At present, Luyten's Star is moving away from the Solar System. The closest approach occurred about 13,000 years ago when it came within 3.67 parsecs. The star is currently located 1.2 light years distant from Procyon, and the latter would appear as a visual magnitude −4.5 star in the night sky of a hypothetical planet orbiting Luyten's Star. The closest encounter between the two stars occurred about 600 years ago when Luyten's Star was at its minimal distance of about 1.12 ly from Procyon. The space velocity components of Luyten's Star are U = +16, V = −66 and W = -17 km/s.
+In Larry Niven's Known Space stories, Luyten's Star is Down's primary (known as "L5 1668", a corrupted designation).
+			]]
+		}
+	},
+	["Procyon"]={
+		["title"]="Procyon",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Procyon (α CMi, α Canis Minoris, Alpha Canis Minoris) is the brightest star in the constellation Canis Minor. To the naked eye, it appears to be a single star, the seventh brightest in the night sky with a visual apparent magnitude of 0.34. It is actually a binary star system, consisting of a white main sequence star of spectral type F5 IV-V, named Procyon A, and a faint white dwarf companion of spectral type DA, named Procyon B. The reason for its brightness is not its intrinsic luminosity but its closeness to the Sun; as determined by the Hipparcos astrometry satellite, it lies at a distance of just 11.46 light-years (3.51 parsecs), and is therefore one of our nearest stellar neighbours. Its closest neighbour is Luyten's Star, about 1.12 ly (0.34 pc) away, and the latter would appear as a visual magnitude −7 star in the night sky of a hypothetical planet orbiting Procyon.
+			]]
+		}
+	},
+	["G51-15"]={
+		["title"]="G51-15",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Wolf 359"]={
+		["title"]="Wolf 359",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 128"]={
+		["title"]="Ross 128",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Lalande 21185"]={
+		["title"]="Lalande 21185",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Lalande 21185 is a red dwarf star in the constellation of Ursa Major. Although relatively close by, it is only magnitude 7 in visible light and thus is too dim to see with the unaided eye. The star is visible through a small telescope.
+At approximately 8.31 light-years (2.55 parsecs) away this star is the fourth closest stellar system to the Sun; only the Alpha Centauri system, Barnard's Star and Wolf 359 are known to be closer. Because of its proximity it is a frequent subject for astronomical surveys and other research and thus is known by numerous other designations. Research papers most commonly use the designations BD+36 2147, Gliese 411, and HD 95735 to refer to this star.
+In approximately 19,900 years Lalande 21185 will be at its closest distance of about 4.65 ly (1.43 pc) from the Sun. Kinematic calculations show that, among currently known stars, only Proxima and Alpha Centauri AB will be closer to the Sun at that moment.
+			]]
+		}
+	},
+	["Barnard's Star"]={
+		["title"]="Barnard's Star",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Barnard's Star (play /ˈbɑrnərd/), also known occasionally as Barnard's "Runaway" Star, is a very low-mass red dwarf star about six light-years away from Earth in the constellation of Ophiuchus, the Snake-holder. Barnard's Star is the fourth-closest known individual star to the Sun, after the three components of the Alpha Centauri system. Despite its proximity, Barnard's Star, at a dim apparent magnitude of about nine, is not visible with the unaided eye; however, it is much brighter in the infrared than it is in visible light. The star is named for American astronomer E.E. Barnard. He was not the first to observe the star, but in 1916 he measured its proper motion as 10.3 arcseconds per year, which remains the largest-known proper motion of any star relative to the Sun.
+Barnard's Star has been the subject of much study, and it has probably received more attention from astronomers than any other class M dwarf star due to its proximity and favorable location for observation near the celestial equator. Historically, research on Barnard's Star has focused on measuring its stellar characteristics, its astrometry, and also refining the limits of possible extrasolar planets. Although Barnard's Star is an ancient star, some observations suggest that it still experiences star flare events.
+Barnard's Star has also been the subject of some controversy. For a decade, from the early 1960s to the early 1970s, Peter van de Kamp claimed that there was a gas giant planet (or planets) in orbit around it. While the presence of small terrestrial planets around the star remains a possibility, Van de Kamp's specific claims of large gas giant planets were refuted in the mid 1970s.
+Barnard's Star is also notable as the target for Project Daedalus, a study on the possibility of fast, unmanned travel to nearby star systems.
+			]]
+		}
+	},
+	["Struve 2398"]={
+		["title"]="Struve 2398",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Sirius"]={
+		["title"]="Sirius",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Sirius is the brightest star in the night sky. With a visual apparent magnitude of −1.46, it is almost twice as bright as Canopus, the next brightest star. The name "Sirius" is derived from the Ancient Greek: Σείριος Seirios ("glowing" or "scorcher"). The star has the Bayer designation Alpha Canis Majoris (α CMa). What the naked eye perceives as a single star is actually a binary star system, consisting of a white main sequence star of spectral type A1V, termed Sirius A, and a faint white dwarf companion of spectral type DA2, called Sirius B. The distance separating Sirius A from its companion varies between 8.1 and 31.5 AU.
+Sirius appears bright because of both its intrinsic luminosity and its proximity to Earth. At a distance of 2.6 parsecs (8.6 ly), as determined by the Hipparcos astrometry satellite, the Sirius system is one of Earth's near neighbors; for Northern-hemisphere observers between 30 degrees and 73 degrees of latitude (including almost all of Europe and North America), it is the closest star (after the Sun) that can be seen with a naked eye. Sirius is gradually moving closer to the Solar System, so it will slightly increase in brightness over the next 60,000 years. After that time its distance will begin to recede, but it will continue to be the brightest star in the Earth's sky for the next 210,000 years.
+Sirius A is about twice as massive as the Sun and has an absolute visual magnitude of 1.42. It is 25 times more luminous than the Sun but has a significantly lower luminosity than other bright stars such as Canopus or Rigel. The system is between 200 and 300 million years old. It was originally composed of two bright bluish stars. The more massive of these, Sirius B, consumed its resources and became a red giant before shedding its outer layers and collapsing into its current state as a white dwarf around 120 million years ago.
+Sirius is also known colloquially as the "Dog Star", reflecting its prominence in its constellation, Canis Major (Greater Dog). The heliacal rising of Sirius marked the flooding of the Nile in Ancient Egypt and the "dog days" of summer for the ancient Greeks, while to the Polynesians it marked winter and was an important star for navigation around the Pacific Ocean.
+			]]
+		}
+	},
+	["L372-58"]={
+		["title"]="L372-58",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["e Eridani"]={
+		["title"]="e Eridani",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["t Ceti"]={
+		["title"]="t Ceti",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L726-8"]={
+		["title"]="L726-8",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L725-32"]={
+		["title"]="L725-32",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Proxima"]={
+		["title"]="Proxima",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Proxima Centauri (Latin proxima, meaning "next to" or "nearest to") is a red dwarf star about 4.24 light-years distant in the constellation of Centaurus. It was discovered in 1915 by Robert Innes, the Director of the Union Observatory in South Africa, and is the nearest known star to the Sun, although it is too faint to be seen with the naked eye. Its distance to the second- and third-nearest stars, which form the bright binary Alpha Centauri, is 0.237 ± 0.011 ly (15,000 ± 700 astronomical units [AU]). Proxima Centauri may be part of a triple star system with Alpha Centauri A and B.
+Because of the proximity of this star, its angular diameter can be measured directly, yielding a diameter one-seventh that of the Sun. Proxima Centauri's mass is about an eighth of the Sun's, and its average density is about 40 times that of the Sun. Although it has a very low average luminosity, Proxima is a flare star that undergoes random dramatic increases in brightness because of magnetic activity. The star's magnetic field is created by convection throughout the stellar body, and the resulting flare activity generates a total X-ray emission similar to that produced by the Sun. The mixing of the fuel at Proxima Centauri's core through convection and the star's relatively low energy production rate suggest that it will be a main-sequence star for another four trillion years, or nearly 300 times the current age of the universe.
+Searches for companions orbiting Proxima Centauri have been unsuccessful, ruling out the presence of brown dwarfs and supermassive planets. Precision radial velocity surveys have also ruled out the presence of super-Earths within the star's habitable zone. The detection of smaller objects will require the use of new instruments, such as the proposed James Webb Space Telescope. Since Proxima Centauri is a red dwarf and a flare star, whether a planet orbiting this star could support life is disputed. Nevertheless, because of the star's proximity to Earth, it has been proposed as a destination for interstellar travel.
+			]]
+		}
+	},
+	["a Centauri"]={
+		["title"]="a Centauri",
+		[1]={
+			["Header"]="Alpha Centauri",
+			["TextContent"]=[[Alpha Centauri (α Centauri, α Cen; also known as Rigil Kentaurus, Rigil Kent play /ˈraɪdʒəl/, or Toliman) is the brightest star in the southern constellation of Centaurus. Although it appears to the unaided eye as a single object, Alpha Centauri is actually a binary star system (designated Alpha Centauri AB or α Cen AB) whose combined visual magnitude of –0.27 would qualify it as the third single brightest star in the night sky after the –1.46 magnitude Sirius and the –0.72 magnitude Canopus.
+Its individual component stars are named Alpha Centauri A (α Cen A), with 110% of the mass and 151.9% the luminosity of the Sun, and Alpha Centauri B (α Cen B), at 90.7% of the Sun's mass and 50.0% of its luminosity. During the pairs' 79.91 year orbit about a common center, the distance between them varies from about that between Pluto and the Sun to that between Saturn and the Sun. They are 1.34 parsecs or 4.37 light years away from the Sun.
+A third star, known as Proxima Centauri, Proxima or Alpha Centauri C (α Cen C), is probably gravitationally associated with Alpha Centauri AB. Proxima is at the slightly smaller distance of 1.29 parsecs or 4.24 light years from the Sun, making it the closest star to the Sun, even though it is not visible to the naked eye. The separation of Proxima from Alpha Centauri AB is about 0.06 parsecs, 0.2 light years or 13,000 astronomical units (AU); equivalent to 400 times the size of Neptune's orbit.
+			]]
+		}
+	},
+	["e Indi"]={
+		["title"]="e Indi",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Lacaille 9352"]={
+		["title"]="Lacaille 9352",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Lacaille 9352 (Lac 9352) is a star in the southern constellation of Piscis Austrinus. With an apparent visual magnitude of 7.34, this star is too faint to be viewed with the naked eye even under excellent seeing conditions. Parallax measurements place it at a distance of about 10.74 light-years (3.29 parsecs) from Earth. It is the tenth closest star system to the Solar System and is the closest star in the constellation Piscis Austrinus. The ChView simulation shows that its closest neighbour is the EZ Aquarii triple star system at about 4.1 ly from Lacaille 9352.
+			]]
+		}
+	},
+	["Groombridge 34"]={
+		["title"]="Groombridge 34",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 248"]={
+		["title"]="Ross 248",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L789-6"]={
+		["title"]="L789-6",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 154"]={
+		["title"]="Ross 154",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["61 Cygni"]={
+		["title"]="61 Cygni",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	 
 }
