@@ -1,0 +1,229 @@
+
+metaDatas={
+	["sun"]={
+		["title"]="Mặt Trời",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Mặt Trời là ngôi sao ở trung tâm Thái dương hệ, có thành phần chủ yếu là Hydro và Heli ở dạng plasma. Mặt trời có đường kính khoảng 1,392,684 km, gấp 109 lần so với Trái Đất, với khối lượng khoảng 330,000 lần khối lượng Trái Đất, Mặt Trời chiếm 99.86% toàn bộ khối lượng của cả Hệ mặt trời. Các nhà khoa học cho rằng khoảng 3/4 khối lượng Mặt Trời là Hydro, phần còn lại chủ yếu là Heli. Phần rất nhỏ, khoảng 1.69%, (nhưng cũng tương đương với 5,628 lần khối lượng Trái Đất) là các nguyên tố nặng hơn gồm có oxy, carbon, neon and iron, ...
+			]]
+		}
+	},
+	["Luyten's Star"]={
+		["title"]="Luyten's Star",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Luyten's Star (GJ 273) là một ngôi sao lùn đỏ nằm trong chòm sao Canis Minor, cách Trái Đất khoảng 12.36 năm ánh sáng và có cường độ sáng 9.9, tức là rất mờ nên không thể nhìn thấy bằng mắt thường. Tên ngôi sao được đặt theo tên của Willem Jacob Luyten, người đã cùng với Edwin G. Ebbighausen, xác định chính xác chuyển động của nó vào năm 1935.
+Ngôi sao này có khối lượng xấp xỉ 1/4 khối lượng Mặt trời và có bán kính tương ứng khoảng 35%. Luyten's Star is at the maximum mass at which a red dwarf star can be fully convective. That is, most if not all of the star forms an extended convection zone. It has a stellar classification of M3.5V, with the V luminosity class indicating this is a main sequence star that is generating energy through the thermonuclear fusion of hydrogen at its core. The projected rotation rate of this star is too low to be measured, but is no greater than 1 km/s. The effective temperature of the star's outer envelope is a relatively cool 3,150 K, giving the star the characteristic red-orange hue of an M-type star.
+			]]
+		},
+		[2]={
+			["Header"]="Chuyển động",
+			["TextContent"]=[[Hiện tại, Luyten's Star đang tiếp tục di chuyển xa khỏi Hệ mặt trời kể từ thời điểm gần nhất khoảng 13,000 năm trước. Ngôi sao này cách ngôi sao gần nhất là Procyon khoảng 1.2 năm ánh sáng. Procyon sẽ hiện lên như một ngôi sao có cường độ sáng −4.5 trên bầu trời đêm của hành tinh bay quanh Luyten. Hai ngôi sao này tiến lại gần nhau nhất cách đây 600 năm ở khoảng khoảng cách chừng 1.12 năm ánh sáng.
+			]]
+		}
+	},
+	["Procyon"]={
+		["title"]="Procyon",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Procyon là ngôi sao sáng nhất trong chòm sao Canis Minor. Khi quan sát bằng mắt thường ta thấy nó là một ngôi sao đơn lẻ và đứng thứ 7 trong số các ngôi sao sáng nhất trong đêm, với cường độ sáng 0.34. Thực chất, đó là một hệ sao đôi, bao gồm một ngôi sao trắng có quang phổ loại F5 IV-V, đặt tên là Procyon A, và một ngôi sao lùn trắng với quang phổ DA, có tên Procyon B. Procyon không có cường độ sáng mạnh, nhưng bởi khoảng cách rất gần với Trái Đất nên nó vẫn có thứ tự cao trong bảng các ngôi sao sáng. Với khoảng cách chỉ 11.46 năm ánh sáng, Procyon là một trong số các ngôi sao láng giềng gần với Mặt Trời nhất. Ngôi sao gần với Procyon là ngôi sao Luyten chỉ cách chừng 1.2 năm ánh sáng, và nếu bạn ở trên một hành tinh bay quanh Procyon, sao Luyten sẽ xuất hiện với cường độ sáng −7.
+			]]
+		}
+	},
+	["G51-15"]={
+		["title"]="G51-15",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Wolf 359"]={
+		["title"]="Wolf 359",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 128"]={
+		["title"]="Ross 128",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Lalande 21185"]={
+		["title"]="Lalande 21185",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Lalande 21185 là ngôi sao lùn đỏ trong chòm sao Ursa Major. Mặc dù khoảng cách tới Trái đất khá gần, nhưng nó rất mờ nhạt với cường độ sáng là 7 khiến nó không thể nhìn bằng mắt thường, nhưng chúng ta có thể quan sát nó với một kính thiên văn cỡ nhỏ.
+Với khoảng cách xấp xỉ 8.31 năm ánh sáng, ngôi sao này đứng thứ 4 trong danh sách các hệ sao gần với Mặt trời: sau hệ sao Alpha Centauri, Barnard's Star và Wolf 359. Cũng bởi khoảng cách gần nên nó là đối tượng thường xuyên trong các nghiên cứu thiên văn và các nghiên cứu khác.
+Các nhà khoa học tính được rằng, khoảng 19,900 năm nữa, Lalande 21185 sẽ tiến tới vị trí gần Mặt trời nhất ở khoảng cách 4.65 năm ánh sáng, như vậy nó sẽ chiếm vị trí thứ 2 trong các hệ sao gần với Trái Đất nhất, chỉ chỉ đứng sau hệ sao Alpha Centauri AB và Proxima Centauri.
+			]]
+		}
+	},
+	["Barnard's Star"]={
+		["title"]="Barnard's Star",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Barnard's Star, là ngôi sao lùn đỏ có khối lượng rất nhỏ nằm cách chúng ta 6 năm ánh sáng trong chòm sao Ophiuchus. Barnard's Star đứng thứ 4 trong danh sách các ngôi sao đơn lẻ gần Mặt trời nhất, sau 3 ngôi sao trong hệ sao Alpha Centauri. Mặc dù gần như vậy, nhưng nó chỉ có cường độ sáng là 9 khiến cho chúng ta không thể quan sát bằng mắt thường; tuy nhiên, nó sẽ sáng hơn rất nhiều khi quan sát bằng kính hồng ngoại. Ngôi sao được đặt tên theo nhà thiên văn học E.E. Barnard. Mặc dù ông không phải là người đầu tiên phát hiện ra, nhưng năm 1916 ông đã tính toán được chính xác quỹ đạo chuyển động của nó.
+Barnard's Star cũng là ngôi sao được nghiên cứu rất nhiều và thu hút sự quan tâm của các nhà thiên văn học do khoảng cách của nó với Mặt trời cũng như vị trí gần xích đạo. Đây cũng nổi tiếng bởi là mục tiêu cho dự án Daedalus nhằm nghiên cứu khả năng phóng tàu vũ trụ không người lái tới một ngôi sao gần với Mặt trời.
+			]]
+		}
+	},
+	["Struve 2398"]={
+		["title"]="Struve 2398",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Sirius"]={
+		["title"]="Sirius",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Sirius là ngôi sao sáng nhất trên bầu trời đêm. Với độ sáng biểu kiến −1.46, nó sáng gần gấp 2 lần ngôi sao sáng thứ 2, Canopus. Tên gọi "Sirius" xuất phát từ tiếng Hi Lạp cổ "Seirios" (có nghĩa là "chói sáng"). Mặc dù với mắt thường chúng ta thấy Sirius là một ngôi sao, nhưng thực chất nó là một hệ sao đôi, bao gồm một ngôi sao sáng trắng có quang phổ A1V, ta gọi là ngôi sao Sirius A, và một ngôi sao lùn trắng mờ có quang phổ loại DA2, được đặt tên là Sirius B. Khoảng cách giữa Sirius A và bạn đồng hành dao động trong khoảng 8.1 và 31.5 AU (đơn vị thiên văn).
+			]]
+		},
+		[2]={
+			["Header"]="Khoảng cách",
+			["TextContent"]=[[Sirius rất sáng bởi cả cường độ sáng thực tế cùng khoảng cách rất gần với chúng ta. Với khoảng cách tới Mặt Trời chỉ 2.6 parsecs (8.6 năm ánh sáng), hệ Sirius là một trong số hàng xóm của Thái dương hệ, và là một trong những ngôi sao gần nhất mà chúng ta có thể quan sát bằng mắt thường. Sirius hiện đang chuyển động lại gần hệ Mặt trời, do đó nó sẽ từ từ sáng lên trong 60,000 năm tiếp theo. Sau đó, Sirius sẽ di chuyền ra xa và khoảng cách sẽ dần tăng lên, nhưng điều đó cũng không ngăn cản được Sirius vẫn tiếp tục là ngôi sao sáng nhất trên bầu trời đêm của chúng ta trong suốt 210,000 năm nữa.
+			]]
+		},
+		[3]={
+			["Header"]="Cấu tạo",
+			["TextContent"]=[[Sirius A có khối lượng gấp 2 lần Mặt Trời và có cường độ sáng tuyệt đối là 1.42. Điều đó có nghĩa nó phát sáng mạnh gấp 25 lần Mặt Trời, nhưng thấp hơn đáng kể so với cường độ sáng của các ngôi sao sáng khác như Canopus hay Rigel. Hệ sao Sirius có tuổi chừng 200 tới 300 triệu năm (rất mới), hình thành từ sự kết hợp 2 ngôi sao xanh. Ngôi sao nặng hơn, Sirius B, đã đốt hết nhiên liệu của nó và trở thành một ngôi sao đỏ khổng lồ trước khi sụp đổ thành sao lùn trắng vào khoảng 120 triệu năm trước đây.
+			]]
+		},
+		[4]={
+			["Header"]="Tên gọi",
+			["TextContent"]=[[Sirius còn có tên dân dã "ngôi sao chó" (Dog Star), do nó là ngôi sao đáng chú ý nhất trong chòm sao Đại Khuyển - Canis Major (Greater Dog). Sự xuất hiện của Sirius ngay trước bình minh mỗi năm báo hiệu mùa lụt của sông Nile ở Ai Cập cùng với cái nóng như thiêu đốt của mùa hè. Người Hy Lạp cổ coi những thời gian đó của mùa hè như những ngày Chó, khi chỉ có chó mới đủ điên để đi ra ngoài trong nhiệt độ đó, dẫn đến việc ngôi sao được biết tới là ngôi sao Chó.
+			Do là ngôi sao sáng nhất trên bầu trời đêm, và có thể quan sát từ mọi vị trí trên Trái Đất, nên Sirius được quan sát và ghi chép từ thời cổ đại với những tên gọi khác nhau ở các nền văn minh khác nhau.
+			]]
+		}
+	},
+	["L372-58"]={
+		["title"]="L372-58",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["e Eridani"]={
+		["title"]="e Eridani",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["t Ceti"]={
+		["title"]="t Ceti",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L726-8"]={
+		["title"]="L726-8",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L725-32"]={
+		["title"]="L725-32",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Proxima"]={
+		["title"]="Proxima",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Proxima Centauri (tiếng Latinh proxima có nghĩa là 'bên cạnh') là một sao lùn đỏ nằm cách Hệ Mặt Trời xấp xỉ 4,2 năm ánh sáng trong chòm sao Bán Nhân Mã. Nó được Robert Innes, giám đốc đài quan sát Union ở Nam Phi, khám phá vào năm 1915. Ngôi sao này là ngôi sao gần nhất với Mặt Trời tuy rằng nó rất mờ và không thể nhìn thấy bằng mắt thường. Proxima Centauri có khả năng là ngôi sao thứ 3 trong hệ sao ba, bao gồm 2 ngôi sao Alpha Centauri A và B với khoảng cách tới 2 ngôi sao còn lại vào khoảng 15000 AU (đơn vị thiên văn) 
+Proxima Centauri có khối lượng khoảng 1/8 khối lượng Mặt trời, và có cường độ sáng rất thấp, tuy nhiên Proxima là một ngôi sao lóe sáng ("diệu tinh") thỉnh thoảng bừng sáng lên do hoạt động từ trường. Từ trường của ngôi sao được tạo ra do sự đối lưu trong ngôi sao, và kết quả là hoạt động lóe sáng tạo ra tổng lượng bức xạ tia X bằng với bức xạ do Mặt Trời tạo ra.
+			]]
+		},
+		[2]={
+			["Header"]="Hành tinh",
+			["TextContent"]=[[Năm 2016, người ta đã phát hiện ra Proxima b, một hành tinh bay quanh Proxima ở khoảng cách rất nhỏ 0.05 AU (7,500,000 km) với chu kỳ 11.2 ngày Trái đất. Khối lượng hành tinh Proxima b khoảng 1.3 lần so với Trái đất và có nhiệt độ cân bằng ở trong khoảng mà nước có thể tồn tại ở thể lỏng, nghĩa là nó năng trong vùng có khả năng hỗ trợ sự sống của Proxima Centauri. Tuy nhiên do Proxima Centauri là ngôi sao lùn đỏ và lóe sáng, nên khả năng hỗ trợ sự sống của Proxima b vẫn chưa được khẳng định.
+			]]
+		}
+	},
+	["a Centauri"]={
+		["title"]="α Centauri",
+		[1]={
+			["Header"]="Giới thiệu",
+			["TextContent"]=[[Alpha Centauri là ngôi sao sáng nhất trong chòm sao Centaurus. Bằng mắt thường chúng thấy đó là một ngôi sao, nhưng đây thực chất là một hệ sao đôi (với tên gọi Alpha Centauri AB) có cường độ sáng tổng là –0.27, nên nó là ngôi sao sáng thư 3 trên bầu trời đêm sau ngôi sao Sirius có độ sáng –1.46 và ngôi sao Canopus có độ sáng -0.72.
+Hệ sao bao gồm sao Alpha Centauri A, có khối lượng bằng 110% và độ sáng 150% so với Mặt trời, và Alpha Centauri B, với khối lượng 90.7% cùng độ sáng 50% khi so với Mặt trời. Hai ngôi sao này có quỹ đạo 79.91 năm xung quanh tâm chung của chúng, và khoảng cách giữa chúng tay đổi trong khoảng lớn nhất là bằng khoảng cách từ Pluto (Sao Diêm vương) tới Mặt trời, và khoảng cách bé nhất giữa chúng xấp xỉ khoảng cách từ Sao thổ (Saturn) tới Mặt trời. Chúng cách Mặt trời khoảng 4.37 năm ánh sáng.
+Hệ sao còn có ngôi sao thứ 3 là Proxima Centauri (hay Proxima), mà các nhà khoa học cho rằng có liên kết hấp dẫn với Alpha Centauri AB. Proxima gần hơn một chút với Mặt trời, khoảng 4.24 năm ánh sáng. Khoảng cách từ Proxima tới Alpha Centauri AB chỉ khoảng 0.2 năm ánh sáng hay 13000 đơn vị tiên văn (AU) hay gấp 400 lần quỹ đạo Sao diêm vương.
+			]]
+		}
+	},
+	["e Indi"]={
+		["title"]="e Indi",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Lacaille 9352"]={
+		["title"]="Lacaille 9352",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Lacaille 9352 là ngôi sao ở phía nam chòm sao Piscis Austrinus. Với cường độ sáng 7.34, ngôi sao này không thể nhìn thấy bằng mắt thường kể cả trong điều kiện hoàn hảo. Khoảng cách của nó tới Trái đất vào khoảng 10.74 năm ánh sáng, cho nên nó được xếp thứ 10 trong số các hệ sao gần Mặt trời nhất. Ngôi sao hàng xóm gần với nó nhất là hệ sao ba EZ Aquarii với khoảng cách 4.1 năm ánh sáng.
+			]]
+		}
+	},
+	["Groombridge 34"]={
+		["title"]="Groombridge 34",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 248"]={
+		["title"]="Ross 248",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["L789-6"]={
+		["title"]="L789-6",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["Ross 154"]={
+		["title"]="Ross 154",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	["61 Cygni"]={
+		["title"]="61 Cygni",
+		[1]={
+			["Header"]="Introduction",
+			["TextContent"]=[[Updating...
+			]]
+		}
+	},
+	 
+}
